@@ -1,0 +1,10 @@
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\bin\Debug\netstandard2.1\B_Hacienda.deps.json
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\bin\Debug\netstandard2.1\B_Hacienda.dll
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\bin\Debug\netstandard2.1\B_Hacienda.pdb
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.csproj.AssemblyReference.cache
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.AssemblyInfoInputs.cache
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.AssemblyInfo.cs
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.csproj.CoreCompileInputs.cache
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.dll
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.pdb
