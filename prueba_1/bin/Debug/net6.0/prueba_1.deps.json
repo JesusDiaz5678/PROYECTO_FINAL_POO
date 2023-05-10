@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "prueba_1/1.0.0": {
+        "dependencies": {
+          "B_Hacienda": "1.0.0.0"
+        },
+        "runtime": {
+          "prueba_1.dll": {}
+        }
+      },
+      "B_Hacienda/1.0.0.0": {
+        "runtime": {
+          "B_Hacienda.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "prueba_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "B_Hacienda/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

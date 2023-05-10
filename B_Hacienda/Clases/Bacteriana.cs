@@ -15,6 +15,7 @@ namespace B_Hacienda.Clases
             Pdo_aplicacion = pdo_aplicacion;
         }
 
+        //ACCESORES
         public byte Pdo_aplicacion
         {
             get

@@ -9,7 +9,7 @@ namespace B_Hacienda.Clases
     {
         //ATRIBUTOS
         private string nombre;
-        public enum l_lote {A10, B10, C10, A11,B11, C11, A12, B12, C12};
+        public enum l_lote {A10, B10, C10, A11, B11, C11, A12, B12, C12};
         private l_lote lote;
         private DateTime fecha_aplicacion;
 
@@ -18,7 +18,7 @@ namespace B_Hacienda.Clases
         protected Vacuna(string nombre, l_lote lote)
         {
             Nombre = nombre;
-            this.Lote = lote;
+            Lote = lote;
             fecha_aplicacion = DateTime.Now;
         }
 
@@ -32,7 +32,7 @@ namespace B_Hacienda.Clases
                 if (value.Length > 4 && !String.IsNullOrWhiteSpace(value)
                     && !String.IsNullOrEmpty(value))
                 {
-                    nombre = value;
+                    nombre = value.ToUpper();
                 }
                 else
                 {
