@@ -20,6 +20,8 @@ namespace B_Hacienda.Clases
             Peso = random.Next(500, 600);
         }
 
+
+        //ACCESORES
         public byte Edad
         {
             get => edad;
@@ -35,6 +37,43 @@ namespace B_Hacienda.Clases
                     throw new Exception("La edad ingresada no corresponde al rango de edad de Novillo");
                 }
             }
+        }
+
+        public static byte Edad_min => edad_min;
+
+        public static byte Edad_max => edad_max;
+
+        //METODOS
+        public override void Vacunar(Vacuna vacuna)
+        {
+
+            if (vacuna is Viva)
+            {
+                if (Num_vacunas_vivas < vacuna_viva)
+                {
+                    Num_vacunas_vivas += 1;
+                }
+                else
+                {
+                    throw new Exception("Solo se puede aplicar dos dosis de vacuna Viva");
+                }
+            }
+            else if (vacuna is Bacteriana)
+            {
+                if (Num_vacunas_bacterianas < vacuna_bacteriana)
+                {
+                    Num_vacunas_bacterianas += 1;
+                }
+                else
+                {
+                    throw new Exception("Solo se puede aplicar dos dosis de vacuna Bacteriana");
+                }
+            }
+            else
+            {
+                throw new Exception("No ingreso ningun tipo de Vacuna");
+            }
+
         }
     }
 }

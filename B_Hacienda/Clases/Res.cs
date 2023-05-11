@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using B_Hacienda.Interfaces;
 
 namespace B_Hacienda.Clases
 {
     //Res es una Superclase
-    public abstract class Res
+    public abstract class Res : IVacunar
     {
         //ATRIBUTOS
         internal byte edad; //meses
@@ -30,5 +31,9 @@ namespace B_Hacienda.Clases
         public byte Num_vacunas_vivas { get => num_vacunas_vivas; set => num_vacunas_vivas = value; }
         public byte Num_vacunas_bacterianas { get => num_vacunas_bacterianas; set => num_vacunas_bacterianas = value; }
         internal int Peso { get => peso; set => peso = value; }
+
+        //METODO
+        public abstract void Vacunar(Vacuna vacuna);
+        
     }
 }
