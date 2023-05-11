@@ -67,7 +67,7 @@ namespace B_Hacienda.Clases
                 {
                     if (res is Ternero)
                     {
-                        if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
+                        if (Edad_min<=res.edad)
                         {
                             l_reses.Add(res);
                         }
@@ -78,7 +78,7 @@ namespace B_Hacienda.Clases
                     }
                     else if (res is Novillo)
                     {
-                        if (Novillo.Edad_min <= edad_min && edad_min <= Novillo.Edad_max)
+                        if (Edad_min <= res.edad)
                         {
                             l_reses.Add(res);
                         }
@@ -89,7 +89,7 @@ namespace B_Hacienda.Clases
                     }
                     else if (res is Cebon)
                     {
-                        if (Cebon.Edad_min <= edad_min)
+                        if (Edad_min <= res.edad)
                         {
                             l_reses.Add(res);
                         }
