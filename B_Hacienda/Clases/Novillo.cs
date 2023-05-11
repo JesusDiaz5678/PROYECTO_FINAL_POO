@@ -16,8 +16,8 @@ namespace B_Hacienda.Clases
         public Novillo(byte edad) : base(edad)
         {
             Edad = edad;
-            Random random = new Random();
-            Peso = random.Next(500, 600);
+            Random ale = new Random();
+            Peso = ale.Next(500, 600);
         }
 
 

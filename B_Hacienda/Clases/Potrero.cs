@@ -55,7 +55,7 @@ namespace B_Hacienda.Clases
             }
         }
 
-        public List<Res> L_reses { get => l_reses; set => l_reses = value; }
+        public List<Res> L_reses { get => l_reses; }
 
 
         //METODOS

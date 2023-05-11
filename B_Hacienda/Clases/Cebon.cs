@@ -15,8 +15,8 @@ namespace B_Hacienda.Clases
         public Cebon(byte edad) : base(edad)
         {
             Edad = edad;
-            Random random = new Random();
-            Peso = random.Next(150, 200);
+            Random ale = new Random();
+            Peso = ale.Next(500, 700);
         }
 
         //ACCESORES

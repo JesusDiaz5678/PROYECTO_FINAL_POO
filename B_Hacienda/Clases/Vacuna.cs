@@ -18,7 +18,7 @@ namespace B_Hacienda.Clases
         protected Vacuna(string nombre, l_lote lote)
         {
             Nombre = nombre;
-            Lote = lote;
+            lote = lote;
             fecha_aplicacion = DateTime.Now;
         }
 
@@ -44,6 +44,6 @@ namespace B_Hacienda.Clases
         }
         
         public DateTime Fecha_aplicacion { get => fecha_aplicacion; }
-        internal l_lote Lote { get => lote; set => lote = value; }
+        internal l_lote Lote { get => lote;}
     }
 }

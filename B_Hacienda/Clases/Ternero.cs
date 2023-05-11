@@ -16,13 +16,14 @@ namespace B_Hacienda.Clases
         public Ternero(byte edad) : base(edad)
         {
             Edad = edad;
-            Random random = new Random();
-            Peso = random.Next(150, 200);
+            Random ale = new Random();
+            Peso = ale.Next(150, 200);
         }
 
-        
+
 
         //ACCESORES
+
         public byte Edad
         {
             get => edad;

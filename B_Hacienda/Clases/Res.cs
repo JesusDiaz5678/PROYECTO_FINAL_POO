@@ -27,10 +27,11 @@ namespace B_Hacienda.Clases
 
         //ACCESORES
 
-        public List<Vacuna> L_vacunas { get => l_vacunas; set => l_vacunas = value; }
+        public List<Vacuna> L_vacunas { get => l_vacunas;}
         public byte Num_vacunas_vivas { get => num_vacunas_vivas; set => num_vacunas_vivas = value; }
         public byte Num_vacunas_bacterianas { get => num_vacunas_bacterianas; set => num_vacunas_bacterianas = value; }
-        internal int Peso { get => peso; set => peso = value; }
+        public int Peso { get => peso; set => peso = value; }
+
 
         //METODO
         public abstract void Vacunar(Vacuna vacuna);
