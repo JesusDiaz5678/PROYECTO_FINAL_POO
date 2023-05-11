@@ -8,3 +8,13 @@ C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROY
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.csproj.CoreCompileInputs.cache
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.dll
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.pdb
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\bin\Debug\netstandard2.1\B_Hacienda.deps.json
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\bin\Debug\netstandard2.1\B_Hacienda.dll
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\bin\Debug\netstandard2.1\B_Hacienda.pdb
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.csproj.AssemblyReference.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.AssemblyInfoInputs.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.AssemblyInfo.cs
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.csproj.CoreCompileInputs.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.dll
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\B_Hacienda\obj\Debug\netstandard2.1\B_Hacienda.pdb

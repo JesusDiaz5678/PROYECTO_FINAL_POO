@@ -11,6 +11,7 @@ namespace B_Hacienda.Clases
         private ushort id;
         private List<Res> l_reses;
         private byte edad_min;
+        
 
         public Potrero(ushort id, byte edad_min)
         {
@@ -60,6 +61,87 @@ namespace B_Hacienda.Clases
         //METODOS
         public void Agregar_Res(Res res)
         {
+            if (l_reses.Count == 0)
+            {
+                if (res is Ternero)
+                {
+                    if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
+                    {
+                        l_reses.Add(res);
+                    }
+                    else
+                    {
+                        throw new Exception("La edad del Ternero no corresponde a este potrero");
+                    }
+                }
+                else if (res is Novillo)
+                {
+                    if (Novillo.Edad_min <= edad_min && edad_min <= Novillo.Edad_max)
+                    {
+                        l_reses.Add(res);
+                    }
+                    else
+                    {
+                        throw new Exception("La edad del Novillo no corresponde a este potrero");
+                    }
+                }
+                else if (res is Cebon)
+                {
+                    if (Cebon.Edad_min <= edad_min)
+                    {
+                        l_reses.Add(res);
+                    }
+                    else
+                    {
+                        throw new Exception("La edad del Cebon no corresponde a este potrero");
+                    }
+                }
+                else
+                {
+                    throw new Exception("No agrego una res al potrero :" + id);
+                }
+            }
+            else
+            {
+                
+                if(l_reses[0] is Ternero)
+                {
+                    if (res is Ternero)
+                    {
+                        if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
+                        {
+                            l_reses.Add(res);
+                        }
+                        
+                    }
+                    else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo TERNEROS");
+                    
+                }
+                else if(l_reses[0] is Novillo)
+                {
+                    if (res is Novillo)
+                    {
+                        if (Novillo.Edad_min <= edad_min && edad_min <= Novillo.Edad_max)
+                        {
+                            l_reses.Add(res);
+                        }
+                    }
+                    else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo NOVILLOS");
+
+                }
+                else if (l_reses[0] is Cebon)
+                {
+                    if (res is Cebon)
+                    {
+                        if (Cebon.Edad_min <= edad_min)
+                        {
+                            l_reses.Add(res);
+                        }
+                    }
+                    else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo CEBONES");
+                }
+            }
+            /*
             if(res is Ternero)
             {
                 if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
@@ -97,9 +179,10 @@ namespace B_Hacienda.Clases
             {
                 throw new Exception("No agrego una res al potrero :"+id);
             }
+            */
         }
 
-        public string Consultar_Tipo_res()
+        public string Consultar_tipo_res()
         {
             string texto = "";
 
