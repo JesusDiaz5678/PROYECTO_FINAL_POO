@@ -61,9 +61,90 @@ namespace B_Hacienda.Clases
         //METODOS
         public void Agregar_Res(Res res)
         {
-            if (l_reses.Count == 0)
+            try
             {
-                if (res is Ternero)
+                if (l_reses.Count == 0)
+                {
+                    if (res is Ternero)
+                    {
+                        if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
+                        {
+                            l_reses.Add(res);
+                        }
+                        else
+                        {
+                            throw new Exception("La edad del Ternero no corresponde a este potrero");
+                        }
+                    }
+                    else if (res is Novillo)
+                    {
+                        if (Novillo.Edad_min <= edad_min && edad_min <= Novillo.Edad_max)
+                        {
+                            l_reses.Add(res);
+                        }
+                        else
+                        {
+                            throw new Exception("La edad del Novillo no corresponde a este potrero");
+                        }
+                    }
+                    else if (res is Cebon)
+                    {
+                        if (Cebon.Edad_min <= edad_min)
+                        {
+                            l_reses.Add(res);
+                        }
+                        else
+                        {
+                            throw new Exception("La edad del Cebon no corresponde a este potrero");
+                        }
+                    }
+                    else
+                    {
+                        throw new Exception("No agrego una res al potrero :" + id);
+                    }
+                }
+                else
+                {
+
+                    if (l_reses[0] is Ternero)
+                    {
+                        if (res is Ternero)
+                        {
+                            if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
+                            {
+                                l_reses.Add(res);
+                            }
+
+                        }
+                        else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo TERNEROS");
+
+                    }
+                    else if (l_reses[0] is Novillo)
+                    {
+                        if (res is Novillo)
+                        {
+                            if (Novillo.Edad_min <= edad_min && edad_min <= Novillo.Edad_max)
+                            {
+                                l_reses.Add(res);
+                            }
+                        }
+                        else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo NOVILLOS");
+
+                    }
+                    else if (l_reses[0] is Cebon)
+                    {
+                        if (res is Cebon)
+                        {
+                            if (Cebon.Edad_min <= edad_min)
+                            {
+                                l_reses.Add(res);
+                            }
+                        }
+                        else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo CEBONES");
+                    }
+                }
+                /*
+                if(res is Ternero)
                 {
                     if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
                     {
@@ -98,112 +179,49 @@ namespace B_Hacienda.Clases
                 }
                 else
                 {
-                    throw new Exception("No agrego una res al potrero :" + id);
+                    throw new Exception("No agrego una res al potrero :"+id);
                 }
+                */
             }
-            else
+            catch (Exception error)
             {
-                
-                if(l_reses[0] is Ternero)
-                {
-                    if (res is Ternero)
-                    {
-                        if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
-                        {
-                            l_reses.Add(res);
-                        }
-                        
-                    }
-                    else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo TERNEROS");
-                    
-                }
-                else if(l_reses[0] is Novillo)
-                {
-                    if (res is Novillo)
-                    {
-                        if (Novillo.Edad_min <= edad_min && edad_min <= Novillo.Edad_max)
-                        {
-                            l_reses.Add(res);
-                        }
-                    }
-                    else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo NOVILLOS");
 
-                }
-                else if (l_reses[0] is Cebon)
-                {
-                    if (res is Cebon)
-                    {
-                        if (Cebon.Edad_min <= edad_min)
-                        {
-                            l_reses.Add(res);
-                        }
-                    }
-                    else throw new Exception("No se puede agregar otro tipo de res a este potrero, solo CEBONES");
-                }
+                throw new Exception("Ocurrio un error en el Agregar_Res: \n" + error);
             }
-            /*
-            if(res is Ternero)
-            {
-                if (Ternero.Edad_min <= edad_min && edad_min <= Ternero.Edad_max)
-                {
-                    l_reses.Add(res);
-                }
-                else
-                {
-                    throw new Exception("La edad del Ternero no corresponde a este potrero");
-                }
-            }
-            else if (res is Novillo)
-            {
-                if (Novillo.Edad_min <= edad_min && edad_min <= Novillo.Edad_max)
-                {
-                    l_reses.Add(res);
-                }
-                else
-                {
-                    throw new Exception("La edad del Novillo no corresponde a este potrero");
-                }
-            }
-            else if (res is Cebon)
-            {
-                if (Cebon.Edad_min <= edad_min)
-                {
-                    l_reses.Add(res);
-                }
-                else
-                {
-                    throw new Exception("La edad del Cebon no corresponde a este potrero");
-                }
-            }
-            else
-            {
-                throw new Exception("No agrego una res al potrero :"+id);
-            }
-            */
+            
         }
 
         public string Consultar_tipo_res()
         {
-            string texto = "";
+            try
+            {
+                string texto = "";
 
-            if (l_reses.Count == 0)
-            {
-                texto = "No hay reses en el potrero";
-            }
-            else if (l_reses[0] is Ternero)
-            {
-                texto = "Este potrero es de TERNEROS";
-            }
+                if (l_reses.Count == 0)
+                {
+                    texto = "No hay reses en el potrero";
+                }
+                else if (l_reses[0] is Ternero)
+                {
+                    texto = "Este potrero es de TERNEROS";
+                }
 
-            else if (l_reses[0] is Novillo)
-            {
-                texto = "Este potrero es de NOVILLOS";
+                else if (l_reses[0] is Novillo)
+                {
+                    texto = "Este potrero es de NOVILLOS";
+                }
+                else if (l_reses[0] is Cebon)
+                {
+                    texto = "Este potrero es de CEBONES";
+                }
+                return texto;
             }
-            else if (l_reses[0] is Cebon)
+            catch (Exception error)
             {
-                texto = "Este potrero es de CEBONES";
+
+                throw new Exception("Ocurrio un error en el metodo Consultar_tipo_Res: \n" + error);
             }
-            return texto;
+            
         }
     }
 }

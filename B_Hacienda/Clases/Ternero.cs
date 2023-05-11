@@ -46,33 +46,43 @@ namespace B_Hacienda.Clases
         //METODOS
         public override void Vacunar(Vacuna vacuna)
         {
+            try
+            {
+
+                if (vacuna is Viva)
+                {
+                    if (Num_vacunas_vivas < vacuna_viva)
+                    {
+                        Num_vacunas_vivas += 1;
+                    }
+                    else
+                    {
+                        throw new Exception("Solo se puede aplicar una dosis de vacuna Viva");
+                    }
+                }
+                else if (vacuna is Bacteriana)
+                {
+                    if (Num_vacunas_bacterianas < vacuna_bacteriana)
+                    {
+                        Num_vacunas_bacterianas += 1;
+                    }
+                    else
+                    {
+                        throw new Exception("Solo se puede aplicar tres dosis de vacuna Bacteriana");
+                    }
+                }
+                else
+                {
+                    throw new Exception("No ingreso ningun tipo de Vacuna");
+                }
+            }
+
+            catch (Exception error)
+            {
+
+                throw new Exception("Ocurrio un error en el metodo Vacunar: \n" + error);
+            }
             
-            if (vacuna is Viva)
-            {
-                if (Num_vacunas_vivas < vacuna_viva)
-                {
-                    Num_vacunas_vivas += 1;
-                }
-                else
-                {
-                    throw new Exception("Solo se puede aplicar una dosis de vacuna Viva");
-                }
-            }
-            else if (vacuna is Bacteriana)
-            {
-                if (Num_vacunas_bacterianas < vacuna_bacteriana)
-                {
-                    Num_vacunas_bacterianas += 1;
-                }
-                else
-                {
-                    throw new Exception("Solo se puede aplicar tres dosis de vacuna Bacteriana");
-                }
-            }
-            else
-            {
-                throw new Exception("No ingreso ningun tipo de Vacuna");
-            }
         
         }
 
