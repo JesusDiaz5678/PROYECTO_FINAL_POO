@@ -26,7 +26,7 @@ namespace B_Hacienda.Clases
 
             set
             {
-                if (value >= Edad_min)
+                if (value >= edad_min)
                 {
                     edad = value;
                 }
@@ -37,7 +37,7 @@ namespace B_Hacienda.Clases
             }
         }
 
-        public static byte Edad_min => edad_min;
+       
 
         //METODOS
         public override void Vacunar(Vacuna vacuna)

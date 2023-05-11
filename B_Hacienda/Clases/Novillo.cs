@@ -39,9 +39,7 @@ namespace B_Hacienda.Clases
             }
         }
 
-        public static byte Edad_min => edad_min;
-
-        public static byte Edad_max => edad_max;
+        
 
         //METODOS
         public override void Vacunar(Vacuna vacuna)
