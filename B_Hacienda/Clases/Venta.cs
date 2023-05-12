@@ -60,7 +60,7 @@ namespace B_Hacienda.Clases
         //saber la venta
         public override string ToString()
         {
-            return base.ToString();
+            return "Venta de la res: "+Res.ToString()+" en el potrero: "+Potrero.ToString();
         }
     }
 }
