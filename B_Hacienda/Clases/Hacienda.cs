@@ -55,14 +55,14 @@ namespace B_Hacienda.Clases
         {
             try
             {
-                string text = "";
+                string text = "pueba";
                 bool sihay = false;
                 
 
 
                 for (int i = 0; i < l_potreros.Count; i++)
                 {
-                    if (venta.Potrero.Equals(l_potreros[i]))
+                    if (l_potreros[i].Equals(venta.Potrero))
                     {
                         l_reces_vendidas.Add(venta.Res);
                         l_ventas.Add(venta);
@@ -75,11 +75,12 @@ namespace B_Hacienda.Clases
 
                 if (sihay)
                 {
-                    throw new Exception("No se ha podido realizar el mensaje");
+                    return text;
+                    
                 }
                 else
                 {
-                    return text;
+                    throw new Exception("No se ha podido realizar la venta");
                 }
                 
 

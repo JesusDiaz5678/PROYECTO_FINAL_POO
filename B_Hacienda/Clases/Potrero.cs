@@ -223,5 +223,11 @@ namespace B_Hacienda.Clases
             }
             
         }
+
+        //Para saber el potrero
+        public override string ToString()
+        {
+            return Id.ToString();
+        }
     }
 }

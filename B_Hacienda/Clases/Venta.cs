@@ -56,5 +56,11 @@ namespace B_Hacienda.Clases
         }
 
         public ulong Precio { get => precio;}
+
+        //saber la venta
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

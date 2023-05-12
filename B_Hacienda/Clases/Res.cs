@@ -35,6 +35,11 @@ namespace B_Hacienda.Clases
 
         //METODO
         public abstract void Vacunar(Vacuna vacuna);
-        
+
+        //para saber la edad de la res
+        public override string ToString()
+        {
+            return edad.ToString();
+        }
     }
 }
