@@ -82,14 +82,36 @@ namespace B_Hacienda.Clases
                 {
                     throw new Exception("No se ha podido realizar la venta");
                 }
-                
-
-
             }
             catch (Exception error)
             {
 
                 throw new Exception ("Ocurrio un error en el metodo Vender: \n"+error);
+            }
+        }
+
+        public void Agregar_potrero(Potrero potrero)
+        {
+            try
+            {
+                bool pot_existe = false;
+
+                foreach (Potrero pot in l_potreros)
+                {
+                    if (pot.Equals(potrero)) pot_existe = true;
+                }
+                if (pot_existe)
+                {
+                    throw new Exception("El potrero que esta ingresando ya existe en la hacienda");
+                }
+                else
+                {
+                    l_potreros.Add(potrero);
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Ocurrio un error en el método Agregar_potrero:\n", e);
             }
         }
     }
