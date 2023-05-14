@@ -28,7 +28,7 @@ namespace B_Hacienda.Clases
             {
                 if(value > 0 && (value >= 14 && value <=28))
                 {
-                    Pdo_aplicacion = value;
+                    pdo_aplicacion = value;
                 }
                 else if(value < 0)
                 {

@@ -18,7 +18,7 @@ namespace B_Hacienda.Clases
         protected Vacuna(string nombre, l_lote lote)
         {
             Nombre = nombre;
-            lote = lote;
+            this.lote = lote;
             fecha_aplicacion = DateTime.Now;
         }
 
@@ -36,7 +36,6 @@ namespace B_Hacienda.Clases
                 }
                 else
                 {
-                    //¿Se permite esto?
                     throw new Exception("El nombre de la vacuna no puede tener espacios nulos, ni estar en blanco");
                 }
             }
