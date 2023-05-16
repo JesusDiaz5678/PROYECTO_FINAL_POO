@@ -46,6 +46,8 @@ namespace B_Hacienda.Clases
         internal l_lote Lote { get => lote;}
         public override string ToString()
         {
+            
+
             return Nombre.ToString() + " " + lote.ToString();
         }
     }
