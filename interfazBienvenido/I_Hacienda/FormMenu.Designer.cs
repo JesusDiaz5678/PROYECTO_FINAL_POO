@@ -204,6 +204,7 @@
             this.bAgregar_Res.TabIndex = 3;
             this.bAgregar_Res.Text = "Agregar Res";
             this.bAgregar_Res.UseVisualStyleBackColor = true;
+            this.bAgregar_Res.Click += new System.EventHandler(this.bAgregar_Res_Click);
             // 
             // panel4
             // 
@@ -224,6 +225,7 @@
             this.bAgregar_pot.TabIndex = 2;
             this.bAgregar_pot.Text = "Agregar Potrero";
             this.bAgregar_pot.UseVisualStyleBackColor = true;
+            this.bAgregar_pot.Click += new System.EventHandler(this.bAgregar_pot_Click);
             // 
             // panel5
             // 
@@ -244,6 +246,7 @@
             this.bVender_Res.TabIndex = 5;
             this.bVender_Res.Text = "Vender Res";
             this.bVender_Res.UseVisualStyleBackColor = true;
+            this.bVender_Res.Click += new System.EventHandler(this.bVender_Res_Click);
             // 
             // panel6
             // 

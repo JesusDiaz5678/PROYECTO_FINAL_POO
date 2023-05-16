@@ -31,12 +31,12 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lNombreHa = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.cbTipo_Res = new System.Windows.Forms.ComboBox();
             this.tbEdad = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.bContinuar = new System.Windows.Forms.Button();
-            this.cTipo_Res = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -68,7 +68,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.cTipo_Res);
+            this.groupBox2.Controls.Add(this.cbTipo_Res);
             this.groupBox2.Controls.Add(this.tbEdad);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
@@ -80,6 +80,24 @@
             this.groupBox2.Size = new System.Drawing.Size(641, 497);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(53, 277);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(97, 31);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Ingrese:";
+            // 
+            // cbTipo_Res
+            // 
+            this.cbTipo_Res.FormattingEnabled = true;
+            this.cbTipo_Res.Location = new System.Drawing.Point(52, 156);
+            this.cbTipo_Res.Name = "cbTipo_Res";
+            this.cbTipo_Res.Size = new System.Drawing.Size(548, 40);
+            this.cbTipo_Res.TabIndex = 9;
             // 
             // tbEdad
             // 
@@ -125,24 +143,6 @@
             this.bContinuar.UseVisualStyleBackColor = true;
             this.bContinuar.Click += new System.EventHandler(this.bContinuar_Click);
             // 
-            // cTipo_Res
-            // 
-            this.cTipo_Res.FormattingEnabled = true;
-            this.cTipo_Res.Location = new System.Drawing.Point(52, 156);
-            this.cTipo_Res.Name = "cTipo_Res";
-            this.cTipo_Res.Size = new System.Drawing.Size(548, 40);
-            this.cTipo_Res.TabIndex = 9;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(53, 277);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 31);
-            this.label3.TabIndex = 10;
-            this.label3.Text = "Ingrese:";
-            // 
             // FormAgre_Res
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
@@ -151,6 +151,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FormAgre_Res";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormAgre_Res";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -169,7 +170,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button bContinuar;
-        private System.Windows.Forms.ComboBox cTipo_Res;
+        private System.Windows.Forms.ComboBox cbTipo_Res;
         private System.Windows.Forms.Label label3;
     }
 }
