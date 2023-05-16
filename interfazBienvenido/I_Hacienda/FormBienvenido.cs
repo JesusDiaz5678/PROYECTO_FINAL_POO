@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace I_Hacienda
 {
-    public partial class Form1 : Form
+    public partial class FormBienvenido : Form
     {
-        public Form1()
+        public FormBienvenido()
         {
             InitializeComponent();
         }
@@ -35,6 +35,13 @@ namespace I_Hacienda
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        internal void bCrear_Click(object sender, EventArgs e)
+        {
+            FormHaciendas formHaciendas = new FormHaciendas();
+            formHaciendas.Show();
+            this.Hide();
         }
     }
 }
