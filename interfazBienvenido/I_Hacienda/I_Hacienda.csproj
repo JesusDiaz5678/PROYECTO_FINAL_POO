@@ -6,4 +6,10 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="B_Hacienda">
+      <HintPath>..\..\B_Hacienda\bin\Debug\netstandard2.1\B_Hacienda.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

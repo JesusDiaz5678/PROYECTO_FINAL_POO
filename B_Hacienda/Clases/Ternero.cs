@@ -85,7 +85,10 @@ namespace B_Hacienda.Clases
         
         }
 
-        
+        public override string ToString()
+        {
+            return "TERNERO "+edad.ToString();
+        }
 
     }
 }

@@ -83,5 +83,10 @@ namespace B_Hacienda.Clases
 
 
         }
+
+        public override string ToString()
+        {
+            return "NOVILLO " + edad.ToString();
+        }
     }
 }

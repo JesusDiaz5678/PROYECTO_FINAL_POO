@@ -42,6 +42,7 @@ namespace I_Hacienda
             this.tbEdadmin = new System.Windows.Forms.TextBox();
             this.tbID = new System.Windows.Forms.TextBox();
             this.tbNombre = new System.Windows.Forms.TextBox();
+            this.bSiguiente = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -93,10 +94,18 @@ namespace I_Hacienda
             resources.ApplyResources(this.tbNombre, "tbNombre");
             this.tbNombre.Name = "tbNombre";
             // 
+            // bSiguiente
+            // 
+            resources.ApplyResources(this.bSiguiente, "bSiguiente");
+            this.bSiguiente.Name = "bSiguiente";
+            this.bSiguiente.UseVisualStyleBackColor = true;
+            this.bSiguiente.Click += new System.EventHandler(this.bSiguiente_Click);
+            // 
             // FormBienvenido
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.bSiguiente);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -119,6 +128,7 @@ namespace I_Hacienda
         private System.Windows.Forms.TextBox tbEdadmin;
         private System.Windows.Forms.TextBox tbID;
         private System.Windows.Forms.TextBox tbNombre;
+        private System.Windows.Forms.Button bSiguiente;
     }
 }
 

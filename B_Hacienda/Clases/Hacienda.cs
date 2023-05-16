@@ -114,5 +114,10 @@ namespace B_Hacienda.Clases
                 throw new Exception("Ocurrio un error en el método Agregar_potrero:\n", e);
             }
         }
+
+        public override string ToString()
+        {
+            return Nombre.ToString();
+        }
     }
 }

@@ -39,7 +39,7 @@ namespace B_Hacienda.Clases
         //para saber la edad de la res
         public override string ToString()
         {
-            return edad.ToString();
+            return "RES " + edad.ToString();
         }
     }
 }

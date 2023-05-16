@@ -40,3 +40,30 @@ C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROY
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormAgre_Pot.resources
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormAgre_Res.resources
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVen_Res.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\I_Hacienda.exe
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\I_Hacienda.deps.json
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\I_Hacienda.runtimeconfig.json
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\I_Hacienda.runtimeconfig.dev.json
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\I_Hacienda.dll
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\ref\I_Hacienda.dll
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\I_Hacienda.pdb
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.csproj.AssemblyReference.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormAgre_Pot.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormAgre_Res.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormBienvenido.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormCon_Ven.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormHaciendas.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormMenu.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVen_Res.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.csproj.GenerateResource.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.AssemblyInfoInputs.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.AssemblyInfo.cs
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.csproj.CoreCompileInputs.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.dll
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\ref\I_Hacienda.dll
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.pdb
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.genruntimeconfig.cache
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\B_Hacienda.dll
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\B_Hacienda.pdb
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.csproj.CopyComplete
