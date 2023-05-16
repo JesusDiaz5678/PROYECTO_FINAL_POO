@@ -1,6 +1,6 @@
 ﻿namespace I_Hacienda
 {
-    partial class FormCon_Van
+    partial class FormVac_Res
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +31,14 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lbNombreHa = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lVacunas = new System.Windows.Forms.ListBox();
+            this.bBacteriana = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.cbReses = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.cbPotreros = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.bContinuar = new System.Windows.Forms.Button();
-            this.bRegresar = new System.Windows.Forms.Button();
+            this.bVacunar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -52,7 +52,7 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1535, 218);
-            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
             // lbNombreHa
@@ -60,7 +60,7 @@
             this.lbNombreHa.AutoSize = true;
             this.lbNombreHa.Font = new System.Drawing.Font("Showcard Gothic", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbNombreHa.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbNombreHa.Location = new System.Drawing.Point(401, 69);
+            this.lbNombreHa.Location = new System.Drawing.Point(402, 70);
             this.lbNombreHa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNombreHa.Name = "lbNombreHa";
             this.lbNombreHa.Size = new System.Drawing.Size(737, 93);
@@ -69,29 +69,43 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.lVacunas);
+            this.groupBox2.Controls.Add(this.bBacteriana);
+            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.cbReses);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.cbPotreros);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.bContinuar);
+            this.groupBox2.Controls.Add(this.bVacunar);
             this.groupBox2.Location = new System.Drawing.Point(396, 217);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(738, 620);
+            this.groupBox2.Size = new System.Drawing.Size(738, 567);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             // 
-            // lVacunas
+            // bBacteriana
             // 
-            this.lVacunas.FormattingEnabled = true;
-            this.lVacunas.ItemHeight = 32;
-            this.lVacunas.Location = new System.Drawing.Point(80, 317);
-            this.lVacunas.Name = "lVacunas";
-            this.lVacunas.Size = new System.Drawing.Size(578, 196);
-            this.lVacunas.TabIndex = 13;
+            this.bBacteriana.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bBacteriana.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bBacteriana.Location = new System.Drawing.Point(437, 409);
+            this.bBacteriana.Margin = new System.Windows.Forms.Padding(4);
+            this.bBacteriana.Name = "bBacteriana";
+            this.bBacteriana.Size = new System.Drawing.Size(221, 84);
+            this.bBacteriana.TabIndex = 14;
+            this.bBacteriana.Text = "BACTERIANA";
+            this.bBacteriana.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(210, 322);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(325, 31);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Seleccione el tipo de vacuna";
             // 
             // cbReses
             // 
@@ -133,47 +147,34 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(223, 37);
+            this.label1.Location = new System.Drawing.Point(263, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 31);
+            this.label1.Size = new System.Drawing.Size(208, 31);
             this.label1.TabIndex = 4;
-            this.label1.Text = "CONSULTAR VACUNA";
+            this.label1.Text = "VACUNAR RES";
             // 
-            // bContinuar
+            // bVacunar
             // 
-            this.bContinuar.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bContinuar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bContinuar.Location = new System.Drawing.Point(273, 559);
-            this.bContinuar.Margin = new System.Windows.Forms.Padding(4);
-            this.bContinuar.Name = "bContinuar";
-            this.bContinuar.Size = new System.Drawing.Size(162, 44);
-            this.bContinuar.TabIndex = 3;
-            this.bContinuar.Text = "CONTINUAR";
-            this.bContinuar.UseVisualStyleBackColor = true;
+            this.bVacunar.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bVacunar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.bVacunar.Location = new System.Drawing.Point(80, 409);
+            this.bVacunar.Margin = new System.Windows.Forms.Padding(4);
+            this.bVacunar.Name = "bVacunar";
+            this.bVacunar.Size = new System.Drawing.Size(221, 84);
+            this.bVacunar.TabIndex = 3;
+            this.bVacunar.Text = "VIVA";
+            this.bVacunar.UseVisualStyleBackColor = true;
             // 
-            // bRegresar
-            // 
-            this.bRegresar.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bRegresar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bRegresar.Location = new System.Drawing.Point(1329, 776);
-            this.bRegresar.Margin = new System.Windows.Forms.Padding(4);
-            this.bRegresar.Name = "bRegresar";
-            this.bRegresar.Size = new System.Drawing.Size(162, 44);
-            this.bRegresar.TabIndex = 8;
-            this.bRegresar.Text = "REGRESAR";
-            this.bRegresar.UseVisualStyleBackColor = true;
-            // 
-            // FormCon_Van
+            // FormVac_Res
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1531, 850);
-            this.Controls.Add(this.bRegresar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "FormCon_Van";
+            this.Name = "FormVac_Res";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FormCon_Van";
+            this.Text = "FormVac_Res";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -187,13 +188,13 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lbNombreHa;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ListBox lVacunas;
+        private System.Windows.Forms.Button bBacteriana;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox cbReses;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox cbPotreros;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button bContinuar;
-        private System.Windows.Forms.Button bRegresar;
+        private System.Windows.Forms.Button bVacunar;
     }
 }

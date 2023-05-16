@@ -70,3 +70,6 @@ C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\B_Hacienda.dll
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\bin\Debug\net5.0-windows\B_Hacienda.pdb
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.csproj.CopyComplete
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormCon_Van.resources
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVac_Res.resources
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVac_Viva.resources
