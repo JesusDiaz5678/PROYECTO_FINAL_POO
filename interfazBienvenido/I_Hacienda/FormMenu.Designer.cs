@@ -30,7 +30,7 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lNombreHa = new System.Windows.Forms.Label();
-            this.cPotreros = new System.Windows.Forms.ComboBox();
+            this.cbPotreros = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -82,20 +82,20 @@
             this.lNombreHa.TabIndex = 2;
             this.lNombreHa.Text = "NOMBRE HACIENDA";
             // 
-            // cPotreros
+            // cbPotreros
             // 
-            this.cPotreros.FormattingEnabled = true;
-            this.cPotreros.Location = new System.Drawing.Point(15, 88);
-            this.cPotreros.Name = "cPotreros";
-            this.cPotreros.Size = new System.Drawing.Size(764, 40);
-            this.cPotreros.TabIndex = 2;
+            this.cbPotreros.FormattingEnabled = true;
+            this.cbPotreros.Location = new System.Drawing.Point(15, 88);
+            this.cbPotreros.Name = "cbPotreros";
+            this.cbPotreros.Size = new System.Drawing.Size(764, 40);
+            this.cbPotreros.TabIndex = 2;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.lReses);
-            this.groupBox2.Controls.Add(this.cPotreros);
+            this.groupBox2.Controls.Add(this.cbPotreros);
             this.groupBox2.Location = new System.Drawing.Point(12, 203);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(880, 552);
@@ -142,6 +142,7 @@
             this.bRegresar.TabIndex = 5;
             this.bRegresar.Text = "REGRESAR";
             this.bRegresar.UseVisualStyleBackColor = true;
+            this.bRegresar.Click += new System.EventHandler(this.bRegresar_Click);
             // 
             // panel1
             // 
@@ -162,6 +163,7 @@
             this.bConsultar_Ven.TabIndex = 0;
             this.bConsultar_Ven.Text = "Consultar Ventas";
             this.bConsultar_Ven.UseVisualStyleBackColor = true;
+            this.bConsultar_Ven.Click += new System.EventHandler(this.bConsultar_Ven_Click);
             // 
             // panel2
             // 
@@ -298,7 +300,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label lNombreHa;
-        private System.Windows.Forms.ComboBox cPotreros;
+        private System.Windows.Forms.ComboBox cbPotreros;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ListBox lReses;
         private System.Windows.Forms.Label label2;

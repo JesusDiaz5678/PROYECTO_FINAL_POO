@@ -36,3 +36,6 @@ C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROY
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormHaciendas.resources
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormBienvenido.resources
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormMenu.resources
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormCon_Ven.resources
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormAgre_Pot.resources
+C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormAgre_Res.resources

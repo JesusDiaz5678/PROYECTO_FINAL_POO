@@ -10,21 +10,14 @@ using System.Windows.Forms;
 
 namespace I_Hacienda
 {
-    public partial class FormHaciendas : Form
+    public partial class FormCon_Ven : Form
     {
-        public FormHaciendas()
+        public FormCon_Ven()
         {
             InitializeComponent();
         }
 
-        private void bRegresar_Click(object sender, EventArgs e)
-        {
-            FormBienvenido form1 = new FormBienvenido();
-            form1.Show();
-            this.Hide();
-        }
-
-        internal void bSiguiente_Click(object sender, EventArgs e)
+        internal void bContinuar_Click(object sender, EventArgs e)
         {
             FormMenu formMenu = new FormMenu();
             formMenu.Show();

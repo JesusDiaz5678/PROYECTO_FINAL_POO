@@ -16,5 +16,19 @@ namespace I_Hacienda
         {
             InitializeComponent();
         }
+
+        internal void bRegresar_Click(object sender, EventArgs e)
+        {
+            FormHaciendas formHaciendas = new FormHaciendas();
+            formHaciendas.Show();
+            this.Hide();
+        }
+
+        private void bConsultar_Ven_Click(object sender, EventArgs e)
+        {
+            FormCon_Ven formCon_Ven = new FormCon_Ven();
+            formCon_Ven.Show();
+            this.Hide();
+        }
     }
 }
