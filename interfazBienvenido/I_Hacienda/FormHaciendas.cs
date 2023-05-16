@@ -53,7 +53,7 @@ internal List<Vacuna> l_vacunas;
             }
             catch(Exception error)
             {
-                throw new Exception("Ocurrió un error en FormHaciendas:\n",error);
+                MessageBox.Show("Ocurrió un error en FormHaciendas:\n"+error);
             }
 
 

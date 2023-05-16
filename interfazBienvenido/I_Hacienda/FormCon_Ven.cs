@@ -30,10 +30,17 @@ namespace I_Hacienda
 
         internal void bContinuar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                formMenu.Show();
+                this.Hide();
+            }
+            catch (Exception error)
+            {
+                throw new Exception("Ocurrio un error en FormCon_Ven:\n", error);
+            }
+
             
-            
-            formMenu.Show();
-            this.Hide();
             
         }
 
@@ -45,14 +52,7 @@ namespace I_Hacienda
 
         private void cbPotreros_SelectedIndexChanged(object sender, EventArgs e)
         {
-            try
-            {
-                
-            }
-            catch (Exception error)
-            {
-                throw new Exception("Ocurrio un error en FormCon_Ven:\n",error);
-            }
+            
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)

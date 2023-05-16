@@ -41,8 +41,6 @@ namespace I_Hacienda
         {
             try
             {
-
-                
                 if (Regex.IsMatch(tbEdad.Text, @"^\d+$") && tbEdad.Text.Length > 0)
                 {
                     switch ((string)cbTipo_Res.SelectedItem)
@@ -68,7 +66,7 @@ namespace I_Hacienda
             }
             catch(Exception error)
             {
-                throw new Exception("Ocurrió un error al crear una res en el potero \n:",error);
+                MessageBox.Show("Ocurrió un error al crear una res en el potero \n:"+error);
             }
 
 

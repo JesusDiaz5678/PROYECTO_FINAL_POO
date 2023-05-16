@@ -73,7 +73,7 @@ namespace I_Hacienda
             }
             catch(Exception error)
             {
-                throw new Exception("Ocurrió un error en crear hacienda: \n",error);
+                MessageBox.Show("Ocurrió un error en crear hacienda: \n"+error);
             }
             
 
@@ -84,7 +84,7 @@ namespace I_Hacienda
         {
             try
             {
-                if (l_haciendas==null)
+                if (l_haciendas.Count == 0)
                 {
                     throw new Exception("Cree al menos una hacienda");
                 }
@@ -99,7 +99,7 @@ namespace I_Hacienda
             }
             catch(Exception error)
             {
-                throw new Exception("Ocurrió un error al avanzar a la siguiente ventana:\n",error);
+                MessageBox.Show("Ocurrió un error al avanzar a la siguiente ventana:\n"+error);
             }
         }
     }

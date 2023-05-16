@@ -49,7 +49,7 @@ namespace I_Hacienda
             }
             catch (Exception error)
             {
-                throw new Exception("Ocurrió un error al crear agregar un potrero a la Hacienda:\n", error);
+                MessageBox.Show("Ocurrió un error al crear agregar un potrero a la Hacienda:\n"+ error);
             }
 
             /*
