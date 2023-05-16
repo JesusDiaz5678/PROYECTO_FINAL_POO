@@ -50,6 +50,7 @@ namespace B_Hacienda.Clases
                     if (Num_vacunas_vivas < vacuna_viva)
                     {
                         Num_vacunas_vivas += 1;
+                        L_vacunas.Add(vacuna);
                     }
                     else
                     {
@@ -61,6 +62,7 @@ namespace B_Hacienda.Clases
                     if (Num_vacunas_bacterianas < vacuna_bacteriana)
                     {
                         Num_vacunas_bacterianas += 1;
+                        L_vacunas.Add(vacuna);
                     }
                     else
                     {

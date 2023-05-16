@@ -16,7 +16,11 @@ namespace B_Hacienda.Clases
         public Viva(string nombre, l_lote lote, l_gdo_atenuacion gdo_atenuacion ) : base(nombre, lote)
         {
             this.gdo_atenuacion = gdo_atenuacion;
+                
         }
+        
+
+
 
         //ACCESOR
         internal l_gdo_atenuacion Gdo_atenuacion { get => gdo_atenuacion;}

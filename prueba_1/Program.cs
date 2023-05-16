@@ -45,8 +45,15 @@ namespace prueba_1
             Viva V1 = new Viva("ACETAMINOFEN", Vacuna.l_lote.B10, Viva.l_gdo_atenuacion.g20);
             Bacteriana B1 = new Bacteriana("holapedro", Vacuna.l_lote.A11, 15);
 
-            c1.Vacunar(B1);
+            c1.Vacunar(V1);
 
+
+            foreach (Vacuna item in c1.L_vacunas)
+            {
+                Console.WriteLine(item.Nombre);
+            }
+
+            /*
             //Potreo
             Potrero P1 = new Potrero(2, 10);
             P1.Agregar_Res(c1);
@@ -61,7 +68,7 @@ namespace prueba_1
             Console.WriteLine(H1.Vender(v1));
             H1.Agregar_potrero(P1);
 
-
+            */
 
         }
     }
