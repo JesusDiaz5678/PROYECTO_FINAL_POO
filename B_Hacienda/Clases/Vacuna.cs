@@ -44,5 +44,9 @@ namespace B_Hacienda.Clases
         
         public DateTime Fecha_aplicacion { get => fecha_aplicacion; }
         internal l_lote Lote { get => lote;}
+        public override string ToString()
+        {
+            return Nombre.ToString() + " " + lote.ToString();
+        }
     }
 }
