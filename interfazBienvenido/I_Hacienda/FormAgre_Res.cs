@@ -34,14 +34,15 @@ namespace I_Hacienda
             //agregamos las opciones
             cbTipo_Res.DataSource = reses;
             formMenu = new FormMenu(SelectHacienda);
+
         }
 
         private void bContinuar_Click(object sender, EventArgs e)
         {
             try
             {
-                
 
+                
                 if (Regex.IsMatch(tbEdad.Text, @"^\d+$") && tbEdad.Text.Length > 0)
                 {
                     switch ((string)cbTipo_Res.SelectedItem)

@@ -31,7 +31,7 @@ namespace I_Hacienda
         internal void bContinuar_Click(object sender, EventArgs e)
         {
             
-            FormMenu formMenu = new FormMenu(selectHacienda);
+            
             formMenu.Show();
             this.Hide();
             
@@ -53,6 +53,11 @@ namespace I_Hacienda
             {
                 throw new Exception("Ocurrio un error en FormCon_Ven:\n",error);
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

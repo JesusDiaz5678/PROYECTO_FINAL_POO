@@ -61,9 +61,11 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.groupBox1.Controls.Add(this.lbNombreHa);
-            this.groupBox1.Location = new System.Drawing.Point(-2, -16);
+            this.groupBox1.Location = new System.Drawing.Point(-3, -20);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1181, 170);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1535, 218);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -73,9 +75,10 @@
             this.lbNombreHa.AutoSize = true;
             this.lbNombreHa.Font = new System.Drawing.Font("Showcard Gothic", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbNombreHa.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbNombreHa.Location = new System.Drawing.Point(307, 52);
+            this.lbNombreHa.Location = new System.Drawing.Point(399, 67);
+            this.lbNombreHa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNombreHa.Name = "lbNombreHa";
-            this.lbNombreHa.Size = new System.Drawing.Size(548, 68);
+            this.lbNombreHa.Size = new System.Drawing.Size(737, 93);
             this.lbNombreHa.TabIndex = 2;
             this.lbNombreHa.Text = "NOMBRE HACIENDA";
             this.lbNombreHa.Click += new System.EventHandler(this.lNombreHa_Click);
@@ -83,10 +86,9 @@
             // cbPotreros
             // 
             this.cbPotreros.FormattingEnabled = true;
-            this.cbPotreros.Location = new System.Drawing.Point(12, 69);
-            this.cbPotreros.Margin = new System.Windows.Forms.Padding(2);
+            this.cbPotreros.Location = new System.Drawing.Point(16, 88);
             this.cbPotreros.Name = "cbPotreros";
-            this.cbPotreros.Size = new System.Drawing.Size(589, 33);
+            this.cbPotreros.Size = new System.Drawing.Size(764, 40);
             this.cbPotreros.TabIndex = 2;
             this.cbPotreros.SelectedIndexChanged += new System.EventHandler(this.cbPotreros_SelectedIndexChanged);
             // 
@@ -96,11 +98,9 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.lReses);
             this.groupBox2.Controls.Add(this.cbPotreros);
-            this.groupBox2.Location = new System.Drawing.Point(9, 159);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Location = new System.Drawing.Point(12, 204);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(677, 431);
+            this.groupBox2.Size = new System.Drawing.Size(880, 552);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
@@ -109,10 +109,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(12, 128);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(16, 164);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(190, 20);
+            this.label2.Size = new System.Drawing.Size(254, 27);
             this.label2.TabIndex = 5;
             this.label2.Text = "Lista de reses del potrero";
             // 
@@ -120,21 +119,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(12, 38);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(16, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 20);
+            this.label1.Size = new System.Drawing.Size(174, 27);
             this.label1.TabIndex = 4;
             this.label1.Text = "Lista de potreros";
             // 
             // lReses
             // 
             this.lReses.FormattingEnabled = true;
-            this.lReses.ItemHeight = 25;
-            this.lReses.Location = new System.Drawing.Point(12, 162);
-            this.lReses.Margin = new System.Windows.Forms.Padding(2);
+            this.lReses.ItemHeight = 32;
+            this.lReses.Location = new System.Drawing.Point(16, 207);
             this.lReses.Name = "lReses";
-            this.lReses.Size = new System.Drawing.Size(589, 254);
+            this.lReses.Size = new System.Drawing.Size(764, 324);
             this.lReses.TabIndex = 3;
             this.lReses.SelectedIndexChanged += new System.EventHandler(this.lReses_SelectedIndexChanged);
             // 
@@ -142,20 +139,18 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.PaleGreen;
             this.panel1.Controls.Add(this.bConsultar_Ven);
-            this.panel1.Location = new System.Drawing.Point(686, 152);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Location = new System.Drawing.Point(892, 195);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(492, 85);
+            this.panel1.Size = new System.Drawing.Size(640, 109);
             this.panel1.TabIndex = 7;
             // 
             // bConsultar_Ven
             // 
             this.bConsultar_Ven.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bConsultar_Ven.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bConsultar_Ven.Location = new System.Drawing.Point(162, 21);
-            this.bConsultar_Ven.Margin = new System.Windows.Forms.Padding(2);
+            this.bConsultar_Ven.Location = new System.Drawing.Point(211, 27);
             this.bConsultar_Ven.Name = "bConsultar_Ven";
-            this.bConsultar_Ven.Size = new System.Drawing.Size(212, 36);
+            this.bConsultar_Ven.Size = new System.Drawing.Size(276, 46);
             this.bConsultar_Ven.TabIndex = 0;
             this.bConsultar_Ven.Text = "Consultar Ventas";
             this.bConsultar_Ven.UseVisualStyleBackColor = true;
@@ -165,20 +160,18 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.LightGreen;
             this.panel2.Controls.Add(this.bConsultar_Vac);
-            this.panel2.Location = new System.Drawing.Point(686, 227);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Location = new System.Drawing.Point(892, 291);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(492, 85);
+            this.panel2.Size = new System.Drawing.Size(640, 109);
             this.panel2.TabIndex = 8;
             // 
             // bConsultar_Vac
             // 
             this.bConsultar_Vac.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bConsultar_Vac.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bConsultar_Vac.Location = new System.Drawing.Point(162, 23);
-            this.bConsultar_Vac.Margin = new System.Windows.Forms.Padding(2);
+            this.bConsultar_Vac.Location = new System.Drawing.Point(211, 29);
             this.bConsultar_Vac.Name = "bConsultar_Vac";
-            this.bConsultar_Vac.Size = new System.Drawing.Size(212, 36);
+            this.bConsultar_Vac.Size = new System.Drawing.Size(276, 46);
             this.bConsultar_Vac.TabIndex = 1;
             this.bConsultar_Vac.Text = "Consultar Vacunas";
             this.bConsultar_Vac.UseVisualStyleBackColor = true;
@@ -187,20 +180,18 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.LightGreen;
             this.panel3.Controls.Add(this.bAgregar_Res);
-            this.panel3.Location = new System.Drawing.Point(686, 393);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Location = new System.Drawing.Point(892, 503);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(492, 85);
+            this.panel3.Size = new System.Drawing.Size(640, 109);
             this.panel3.TabIndex = 10;
             // 
             // bAgregar_Res
             // 
             this.bAgregar_Res.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bAgregar_Res.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bAgregar_Res.Location = new System.Drawing.Point(162, 21);
-            this.bAgregar_Res.Margin = new System.Windows.Forms.Padding(2);
+            this.bAgregar_Res.Location = new System.Drawing.Point(211, 27);
             this.bAgregar_Res.Name = "bAgregar_Res";
-            this.bAgregar_Res.Size = new System.Drawing.Size(212, 36);
+            this.bAgregar_Res.Size = new System.Drawing.Size(276, 46);
             this.bAgregar_Res.TabIndex = 3;
             this.bAgregar_Res.Text = "Agregar Res";
             this.bAgregar_Res.UseVisualStyleBackColor = true;
@@ -210,20 +201,18 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.PaleGreen;
             this.panel4.Controls.Add(this.bAgregar_pot);
-            this.panel4.Location = new System.Drawing.Point(686, 311);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Location = new System.Drawing.Point(892, 398);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(492, 85);
+            this.panel4.Size = new System.Drawing.Size(640, 109);
             this.panel4.TabIndex = 9;
             // 
             // bAgregar_pot
             // 
             this.bAgregar_pot.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bAgregar_pot.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bAgregar_pot.Location = new System.Drawing.Point(162, 23);
-            this.bAgregar_pot.Margin = new System.Windows.Forms.Padding(2);
+            this.bAgregar_pot.Location = new System.Drawing.Point(211, 29);
             this.bAgregar_pot.Name = "bAgregar_pot";
-            this.bAgregar_pot.Size = new System.Drawing.Size(212, 36);
+            this.bAgregar_pot.Size = new System.Drawing.Size(276, 46);
             this.bAgregar_pot.TabIndex = 2;
             this.bAgregar_pot.Text = "Agregar Potrero";
             this.bAgregar_pot.UseVisualStyleBackColor = true;
@@ -233,20 +222,18 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.LightGreen;
             this.panel5.Controls.Add(this.bVender_Res);
-            this.panel5.Location = new System.Drawing.Point(686, 573);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
+            this.panel5.Location = new System.Drawing.Point(892, 733);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(492, 93);
+            this.panel5.Size = new System.Drawing.Size(640, 119);
             this.panel5.TabIndex = 12;
             // 
             // bVender_Res
             // 
             this.bVender_Res.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bVender_Res.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bVender_Res.Location = new System.Drawing.Point(162, 25);
-            this.bVender_Res.Margin = new System.Windows.Forms.Padding(2);
+            this.bVender_Res.Location = new System.Drawing.Point(211, 32);
             this.bVender_Res.Name = "bVender_Res";
-            this.bVender_Res.Size = new System.Drawing.Size(212, 36);
+            this.bVender_Res.Size = new System.Drawing.Size(276, 46);
             this.bVender_Res.TabIndex = 5;
             this.bVender_Res.Text = "Vender Res";
             this.bVender_Res.UseVisualStyleBackColor = true;
@@ -256,29 +243,28 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.PaleGreen;
             this.panel6.Controls.Add(this.bVacunar_Res);
-            this.panel6.Location = new System.Drawing.Point(686, 475);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2);
+            this.panel6.Location = new System.Drawing.Point(892, 608);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(492, 98);
+            this.panel6.Size = new System.Drawing.Size(640, 125);
             this.panel6.TabIndex = 11;
             // 
             // bVacunar_Res
             // 
             this.bVacunar_Res.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bVacunar_Res.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bVacunar_Res.Location = new System.Drawing.Point(162, 27);
-            this.bVacunar_Res.Margin = new System.Windows.Forms.Padding(2);
+            this.bVacunar_Res.Location = new System.Drawing.Point(211, 35);
             this.bVacunar_Res.Name = "bVacunar_Res";
-            this.bVacunar_Res.Size = new System.Drawing.Size(212, 36);
+            this.bVacunar_Res.Size = new System.Drawing.Size(276, 46);
             this.bVacunar_Res.TabIndex = 4;
             this.bVacunar_Res.Text = "Vacunar Res";
             this.bVacunar_Res.UseVisualStyleBackColor = true;
+            this.bVacunar_Res.Click += new System.EventHandler(this.bVacunar_Res_Click);
             // 
             // FormMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 664);
+            this.ClientSize = new System.Drawing.Size(1531, 850);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel6);
@@ -287,7 +273,6 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMenu";

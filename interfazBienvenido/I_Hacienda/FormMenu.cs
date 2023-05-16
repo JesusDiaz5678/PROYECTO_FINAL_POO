@@ -133,5 +133,10 @@ namespace I_Hacienda
                 throw new Exception("Ocurrió un error en el bActualizar:\n", error);
             }
         }
+
+        private void bVacunar_Res_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
