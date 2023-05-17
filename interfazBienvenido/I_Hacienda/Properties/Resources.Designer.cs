@@ -93,9 +93,49 @@ namespace I_Hacienda.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AdobeStock_112363536_khj__1248x698_abc {
+            get {
+                object obj = ResourceManager.GetObject("AdobeStock_112363536-khj--1248x698@abc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cows_2641195_1280 {
             get {
                 object obj = ResourceManager.GetObject("cows-2641195_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cows_grazing_autumn_morning_Somerset_levels_2930581997 {
+            get {
+                object obj = ResourceManager.GetObject("Cows_grazing_autumn_morning_Somerset_levels_2930581997", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maleza_ganaderia_corteva_1068x534 {
+            get {
+                object obj = ResourceManager.GetObject("maleza-ganaderia-corteva-1068x534", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vaca_ganado_vaca_lechera {
+            get {
+                object obj = ResourceManager.GetObject("vaca-ganado-vaca-lechera", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

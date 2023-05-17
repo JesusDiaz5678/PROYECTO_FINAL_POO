@@ -90,7 +90,7 @@
             this.lVacunas.BackColor = System.Drawing.SystemColors.Info;
             this.lVacunas.FormattingEnabled = true;
             this.lVacunas.ItemHeight = 32;
-            this.lVacunas.Location = new System.Drawing.Point(81, 325);
+            this.lVacunas.Location = new System.Drawing.Point(81, 346);
             this.lVacunas.Name = "lVacunas";
             this.lVacunas.Size = new System.Drawing.Size(579, 196);
             this.lVacunas.TabIndex = 13;
@@ -99,7 +99,7 @@
             // 
             this.cbReses.BackColor = System.Drawing.SystemColors.Info;
             this.cbReses.FormattingEnabled = true;
-            this.cbReses.Location = new System.Drawing.Point(81, 235);
+            this.cbReses.Location = new System.Drawing.Point(81, 256);
             this.cbReses.Name = "cbReses";
             this.cbReses.Size = new System.Drawing.Size(579, 40);
             this.cbReses.TabIndex = 12;
@@ -110,7 +110,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(81, 192);
+            this.label3.Location = new System.Drawing.Point(81, 213);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(236, 31);
             this.label3.TabIndex = 10;
@@ -121,7 +121,7 @@
             this.cbPotreros.BackColor = System.Drawing.SystemColors.Info;
             this.cbPotreros.ForeColor = System.Drawing.SystemColors.WindowText;
             this.cbPotreros.FormattingEnabled = true;
-            this.cbPotreros.Location = new System.Drawing.Point(81, 135);
+            this.cbPotreros.Location = new System.Drawing.Point(81, 156);
             this.cbPotreros.Name = "cbPotreros";
             this.cbPotreros.Size = new System.Drawing.Size(579, 40);
             this.cbPotreros.TabIndex = 9;
@@ -132,7 +132,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(81, 90);
+            this.label2.Location = new System.Drawing.Point(81, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(265, 31);
             this.label2.TabIndex = 6;
@@ -143,7 +143,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(182, 27);
+            this.label1.Location = new System.Drawing.Point(157, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(433, 42);
             this.label1.TabIndex = 4;
