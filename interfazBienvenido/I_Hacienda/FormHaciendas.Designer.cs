@@ -46,9 +46,9 @@
             this.groupBox1.BackColor = System.Drawing.SystemColors.Info;
             this.groupBox1.Controls.Add(this.lHacienda);
             this.groupBox1.Location = new System.Drawing.Point(-3, -20);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1535, 218);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -73,9 +73,9 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.bSiguiente);
             this.groupBox2.Location = new System.Drawing.Point(441, 289);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(641, 380);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
@@ -100,12 +100,12 @@
             // 
             // bSiguiente
             // 
-            this.bSiguiente.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bSiguiente.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bSiguiente.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bSiguiente.Location = new System.Drawing.Point(229, 276);
-            this.bSiguiente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bSiguiente.Location = new System.Drawing.Point(218, 276);
+            this.bSiguiente.Margin = new System.Windows.Forms.Padding(4);
             this.bSiguiente.Name = "bSiguiente";
-            this.bSiguiente.Size = new System.Drawing.Size(146, 44);
+            this.bSiguiente.Size = new System.Drawing.Size(181, 44);
             this.bSiguiente.TabIndex = 3;
             this.bSiguiente.Text = "SIGUIENTE";
             this.bSiguiente.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             // 
             this.bRegresar.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bRegresar.Location = new System.Drawing.Point(16, 791);
-            this.bRegresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bRegresar.Margin = new System.Windows.Forms.Padding(4);
             this.bRegresar.Name = "bRegresar";
             this.bRegresar.Size = new System.Drawing.Size(289, 44);
             this.bRegresar.TabIndex = 3;

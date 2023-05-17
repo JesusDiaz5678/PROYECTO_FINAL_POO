@@ -63,6 +63,16 @@ namespace I_Hacienda.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _366544 {
+            get {
+                object obj = ResourceManager.GetObject("366544", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _407882 {
             get {
                 object obj = ResourceManager.GetObject("407882", resourceCulture);
@@ -86,6 +96,16 @@ namespace I_Hacienda.Properties {
         internal static System.Drawing.Bitmap cows_2641195_1280 {
             get {
                 object obj = ResourceManager.GetObject("cows-2641195_1280", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap web {
+            get {
+                object obj = ResourceManager.GetObject("web", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

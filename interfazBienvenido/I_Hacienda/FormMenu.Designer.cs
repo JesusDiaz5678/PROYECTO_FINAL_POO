@@ -76,7 +76,7 @@
             this.lbNombreHa.AutoSize = true;
             this.lbNombreHa.Font = new System.Drawing.Font("Showcard Gothic", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbNombreHa.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbNombreHa.Location = new System.Drawing.Point(427, 66);
+            this.lbNombreHa.Location = new System.Drawing.Point(497, 66);
             this.lbNombreHa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNombreHa.Name = "lbNombreHa";
             this.lbNombreHa.Size = new System.Drawing.Size(737, 93);
@@ -167,7 +167,7 @@
             // 
             // bConsultar_Ven
             // 
-            this.bConsultar_Ven.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bConsultar_Ven.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bConsultar_Ven.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bConsultar_Ven.Location = new System.Drawing.Point(211, 27);
             this.bConsultar_Ven.Name = "bConsultar_Ven";
@@ -188,7 +188,7 @@
             // 
             // bConsultar_Vac
             // 
-            this.bConsultar_Vac.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bConsultar_Vac.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bConsultar_Vac.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bConsultar_Vac.Location = new System.Drawing.Point(211, 29);
             this.bConsultar_Vac.Name = "bConsultar_Vac";
@@ -209,7 +209,7 @@
             // 
             // bAgregar_Res
             // 
-            this.bAgregar_Res.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bAgregar_Res.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bAgregar_Res.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bAgregar_Res.Location = new System.Drawing.Point(211, 27);
             this.bAgregar_Res.Name = "bAgregar_Res";
@@ -230,7 +230,7 @@
             // 
             // bAgregar_pot
             // 
-            this.bAgregar_pot.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bAgregar_pot.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bAgregar_pot.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bAgregar_pot.Location = new System.Drawing.Point(211, 29);
             this.bAgregar_pot.Name = "bAgregar_pot";
@@ -251,7 +251,7 @@
             // 
             // bVender_Res
             // 
-            this.bVender_Res.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bVender_Res.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bVender_Res.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bVender_Res.Location = new System.Drawing.Point(211, 32);
             this.bVender_Res.Name = "bVender_Res";
@@ -272,7 +272,7 @@
             // 
             // bVacunar_Res
             // 
-            this.bVacunar_Res.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.bVacunar_Res.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bVacunar_Res.ForeColor = System.Drawing.SystemColors.ControlText;
             this.bVacunar_Res.Location = new System.Drawing.Point(211, 35);
             this.bVacunar_Res.Name = "bVacunar_Res";
