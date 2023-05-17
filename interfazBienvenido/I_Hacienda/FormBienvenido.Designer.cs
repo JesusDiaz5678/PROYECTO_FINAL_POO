@@ -38,13 +38,16 @@ namespace I_Hacienda
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.bCrear = new System.Windows.Forms.Button();
             this.tbEdadmin = new System.Windows.Forms.TextBox();
             this.tbID = new System.Windows.Forms.TextBox();
             this.tbNombre = new System.Windows.Forms.TextBox();
             this.bSiguiente = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -63,6 +66,8 @@ namespace I_Hacienda
             // 
             // groupBox2
             // 
+            this.groupBox2.BackgroundImage = global::I_Hacienda.Properties.Resources._86710;
+            this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.bCrear);
             this.groupBox2.Controls.Add(this.tbEdadmin);
             this.groupBox2.Controls.Add(this.tbID);
@@ -70,6 +75,12 @@ namespace I_Hacienda
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Name = "label2";
             // 
             // bCrear
             // 
@@ -101,6 +112,14 @@ namespace I_Hacienda
             this.bSiguiente.UseVisualStyleBackColor = true;
             this.bSiguiente.Click += new System.EventHandler(this.bSiguiente_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::I_Hacienda.Properties.Resources._86710;
+            this.pictureBox1.InitialImage = global::I_Hacienda.Properties.Resources._86710;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // FormBienvenido
             // 
             resources.ApplyResources(this, "$this");
@@ -108,6 +127,7 @@ namespace I_Hacienda
             this.Controls.Add(this.bSiguiente);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormBienvenido";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -115,6 +135,7 @@ namespace I_Hacienda
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -129,6 +150,8 @@ namespace I_Hacienda
         private System.Windows.Forms.TextBox tbID;
         private System.Windows.Forms.TextBox tbNombre;
         private System.Windows.Forms.Button bSiguiente;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
