@@ -17,13 +17,17 @@ namespace I_Hacienda
         private FormMenu formMenu;
         private Potrero selectPotrero;
         private Res selectRes;
+        private List<Hacienda> l_hacienda_aux;
 
-        public FormCon_Van(Hacienda selectHacienda)
+        public FormCon_Van(Hacienda selectHacienda,List<Hacienda> haciendas)
         {
             InitializeComponent();
+            l_hacienda_aux = new List<Hacienda>();
+
+            l_hacienda_aux.AddRange(haciendas);
             SelectHacienda = selectHacienda;
             lbNombreHa.Text = SelectHacienda.Nombre;
-            formMenu = new FormMenu(SelectHacienda);
+            formMenu = new FormMenu(SelectHacienda, l_hacienda_aux);
 
             cbPotreros.DataSource = selectHacienda.L_potreros;
         }
@@ -68,7 +72,6 @@ namespace I_Hacienda
 
         private void bRegresar_Click(object sender, EventArgs e)
         {
-            formMenu = new FormMenu(SelectHacienda);
             formMenu.Show();
             this.Hide();
         }

@@ -15,16 +15,21 @@ namespace I_Hacienda
     {
         private Hacienda selectHacienda;
         private FormMenu formMenu;
+        private List<Hacienda> l_hacienda_aux;
         internal Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
 
-        public FormCon_Ven(Hacienda selectHacienda)
+        public FormCon_Ven(Hacienda selectHacienda,List<Hacienda> haciendas)
         {
             InitializeComponent();
+            l_hacienda_aux = new List<Hacienda>();
+
+            l_hacienda_aux.AddRange(haciendas);
             SelectHacienda = selectHacienda;
             lNombreHa.Text = SelectHacienda.Nombre;
-            formMenu = new FormMenu(SelectHacienda);
+            formMenu = new FormMenu(SelectHacienda,l_hacienda_aux);
 
             lreses_ven.DataSource = SelectHacienda.L_reces_vendidas;
+            lbVentas.DataSource = selectHacienda.L_ventas;
         }
 
 
@@ -56,6 +61,11 @@ namespace I_Hacienda
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }

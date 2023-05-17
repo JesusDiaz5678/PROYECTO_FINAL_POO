@@ -18,12 +18,16 @@ namespace I_Hacienda
         private List<String> reses;
         private FormMenu formMenu;
         private int indicePot;
+        private List<Hacienda> l_hacienda_aux;
 
         public Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
 
-        public FormAgre_Res(Hacienda selectHacienda,int indicePot)
+        public FormAgre_Res(Hacienda selectHacienda,int indicePot,List<Hacienda> haciendas)
         {
             InitializeComponent();
+            l_hacienda_aux = new List<Hacienda>();
+
+            l_hacienda_aux.AddRange(haciendas);
             SelectHacienda = selectHacienda;
             this.indicePot = indicePot;
             lNombreHa.Text = SelectHacienda.Nombre;
@@ -33,7 +37,7 @@ namespace I_Hacienda
             reses.Add("CEBÓN");
             //agregamos las opciones
             cbTipo_Res.DataSource = reses;
-            formMenu = new FormMenu(SelectHacienda);
+            formMenu = new FormMenu(SelectHacienda,l_hacienda_aux);
 
         }
 
@@ -89,7 +93,6 @@ namespace I_Hacienda
 
         private void bContinuar_Click_1(object sender, EventArgs e)
         {
-            formMenu = new FormMenu(SelectHacienda);
             formMenu.Show();
             this.Hide();
         }

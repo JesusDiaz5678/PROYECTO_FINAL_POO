@@ -17,14 +17,19 @@ namespace I_Hacienda
         private Res selectRes;
         private FormMenu formMenu;
         private Potrero selectPotrero;
+        private List<Hacienda> l_hacienda_aux;
+
 
         public Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
 
-        public FormVen_Res(Hacienda selectHacienda)
+        public FormVen_Res(Hacienda selectHacienda,List<Hacienda> haciendas)
         {
             InitializeComponent();
+            l_hacienda_aux = new List<Hacienda>();
+
+            l_hacienda_aux.AddRange(haciendas);
             SelectHacienda = selectHacienda;
-            formMenu = new FormMenu(SelectHacienda);
+            formMenu = new FormMenu(SelectHacienda, l_hacienda_aux);
 
             cbPotreros.DataSource = formMenu.SelectHacienda.L_potreros;
 
@@ -86,7 +91,6 @@ namespace I_Hacienda
         {
             try
             {
-                formMenu = new FormMenu(SelectHacienda);
                 formMenu.Show();
                 this.Hide();
 

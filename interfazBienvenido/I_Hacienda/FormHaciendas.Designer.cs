@@ -34,6 +34,7 @@
             this.cbHaciendas = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.bSiguiente = new System.Windows.Forms.Button();
+            this.bRegresar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -102,11 +103,23 @@
             this.bSiguiente.UseVisualStyleBackColor = true;
             this.bSiguiente.Click += new System.EventHandler(this.bSiguiente_Click);
             // 
+            // bRegresar
+            // 
+            this.bRegresar.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bRegresar.Location = new System.Drawing.Point(12, 618);
+            this.bRegresar.Name = "bRegresar";
+            this.bRegresar.Size = new System.Drawing.Size(222, 34);
+            this.bRegresar.TabIndex = 3;
+            this.bRegresar.Text = "CREAR HACIENDA";
+            this.bRegresar.UseVisualStyleBackColor = true;
+            this.bRegresar.Click += new System.EventHandler(this.bRegresar_Click_1);
+            // 
             // FormHaciendas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1178, 664);
+            this.Controls.Add(this.bRegresar);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -130,5 +143,6 @@
         private System.Windows.Forms.ComboBox cbHaciendas;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button bSiguiente;
+        private System.Windows.Forms.Button bRegresar;
     }
 }

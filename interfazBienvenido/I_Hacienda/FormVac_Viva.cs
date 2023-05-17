@@ -14,24 +14,25 @@ namespace I_Hacienda
     public partial class FormVac_Viva : Form
     {
         private Hacienda selectHacienda;
-        private FormMenu formMenu;
-        private Potrero selectPotrero;
         private Res selectRes;
         private List<String> lote;
         private String selectLote;
         private List<String> gdo_atenuacion;
         private String selectGdo;
+        private List<Hacienda> l_hacienda_aux;
+
 
         public Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
 
-        public FormVac_Viva(Hacienda selectHacienda, Res resVacuna)
+        public FormVac_Viva(Hacienda selectHacienda, Res resVacuna,List<Hacienda> haciendas)
         {
             InitializeComponent();
+            l_hacienda_aux = new List<Hacienda>();
+
+            l_hacienda_aux.AddRange(haciendas);
             SelectHacienda = selectHacienda;
             selectRes = resVacuna;
             lbNombreHa.Text = SelectHacienda.Nombre;
-            formMenu = new FormMenu(SelectHacienda);
-
             //cuales son los lotes de la vacuna
             lote = new List<string>();
             foreach (Vacuna.l_lote item in Enum.GetValues(typeof(Vacuna.l_lote)))
@@ -237,7 +238,7 @@ namespace I_Hacienda
         {
             try
             {
-                FormVac_Res formVac_Res = new FormVac_Res(SelectHacienda);
+                FormVac_Res formVac_Res = new FormVac_Res(SelectHacienda,l_hacienda_aux);
                 formVac_Res.Show();
                 this.Hide();
 

@@ -14,18 +14,20 @@ namespace I_Hacienda
 {
     public partial class FormAgre_Pot : Form
     {
-        private Potrero selectPotrero;
         private Hacienda selectHacienda;
-        private List<String> reses;
         private FormMenu formMenu;
+        private List<Hacienda> l_hacienda_aux;
 
         public Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
 
-        public FormAgre_Pot(Hacienda selectHacienda)
+        public FormAgre_Pot(Hacienda selectHacienda,List<Hacienda> haciendas)
         {
             InitializeComponent();
             SelectHacienda = selectHacienda;
             lNombreHa.Text = SelectHacienda.Nombre;
+            l_hacienda_aux = new List<Hacienda>();
+
+            l_hacienda_aux.AddRange(haciendas);
         }
 
         private void bContinuar_Click(object sender, EventArgs e)
@@ -66,7 +68,7 @@ namespace I_Hacienda
 
         private void bContinuar_Click_1(object sender, EventArgs e)
         {
-            formMenu = new FormMenu(SelectHacienda);
+            formMenu = new FormMenu(SelectHacienda,l_hacienda_aux);
             formMenu.Show();
             this.Hide();
         }

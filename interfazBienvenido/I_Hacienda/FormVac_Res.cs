@@ -17,12 +17,17 @@ namespace I_Hacienda
         private FormMenu formMenu;
         private Potrero selectPotrero;
         private Res selectRes;
-        public FormVac_Res(Hacienda selectHacienda)
+
+        private List<Hacienda> l_hacienda_aux;
+        public FormVac_Res(Hacienda selectHacienda, List<Hacienda> haciendas)
         {
             InitializeComponent();
+            l_hacienda_aux = new List<Hacienda>();
+
+            l_hacienda_aux.AddRange(haciendas);
             SelectHacienda = selectHacienda;
             lbNombreHa.Text = SelectHacienda.Nombre;
-            formMenu = new FormMenu(SelectHacienda);
+            formMenu = new FormMenu(SelectHacienda,l_hacienda_aux);
 
             cbPotreros.DataSource = selectHacienda.L_potreros;
         }
@@ -67,7 +72,7 @@ namespace I_Hacienda
         {
             try
             {
-                FormVac_Viva formVac_Viva = new FormVac_Viva(SelectHacienda,selectRes);
+                FormVac_Viva formVac_Viva = new FormVac_Viva(SelectHacienda,selectRes,l_hacienda_aux);
                 formVac_Viva.Show();
                 this.Hide();
             }
@@ -81,7 +86,6 @@ namespace I_Hacienda
         {
             try
             {
-                formMenu = new FormMenu(SelectHacienda);
                 formMenu.Show();
                 this.Hide();
             }
@@ -95,7 +99,7 @@ namespace I_Hacienda
         {
             try
             {
-                FormVac_Bacteriana formVac_Bacteriana = new FormVac_Bacteriana(SelectHacienda, selectRes);
+                FormVac_Bacteriana formVac_Bacteriana = new FormVac_Bacteriana(SelectHacienda, selectRes,l_hacienda_aux);
                 formVac_Bacteriana.Show();
                 this.Hide();
             }

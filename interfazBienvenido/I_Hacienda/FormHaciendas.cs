@@ -17,12 +17,13 @@ namespace I_Hacienda
         private Hacienda selectHacienda;
 
         internal Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
+        public List<Hacienda> L_haciendas { get => l_haciendas; set => l_haciendas = value; }
 
         public FormHaciendas(List<Hacienda> hacienda)
         {
             InitializeComponent();
-            l_haciendas = new List<Hacienda>();
-            l_haciendas.AddRange(hacienda);
+            L_haciendas = new List<Hacienda>();
+            L_haciendas.AddRange(hacienda);
         }
 
         private void bRegresar_Click(object sender, EventArgs e)
@@ -38,7 +39,7 @@ namespace I_Hacienda
                 {
                     SelectHacienda = (Hacienda)cbHaciendas.SelectedItem;
 
-                    FormMenu formMenu = new FormMenu(SelectHacienda);
+                    FormMenu formMenu = new FormMenu(SelectHacienda,L_haciendas);
                     formMenu.Show();
                     this.Hide();
 
@@ -58,13 +59,21 @@ namespace I_Hacienda
         {
             try
             {
-                cbHaciendas.DataSource = l_haciendas;
+                cbHaciendas.DataSource = L_haciendas;
 
             }
             catch(Exception error)
             {
                 throw new Exception("Ocurrió un error en FormHaciendas:\n",error);
             }
+        }
+
+        private void bRegresar_Click_1(object sender, EventArgs e)
+        {
+            FormBienvenido formBienvenido = new FormBienvenido();
+            formBienvenido.L_haciendas.AddRange(L_haciendas);
+            formBienvenido.Show();
+            this.Hide();
         }
     }
 }

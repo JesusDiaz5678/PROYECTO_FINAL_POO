@@ -18,20 +18,22 @@ namespace I_Hacienda
         private Potrero selectPotrero;
         private int indicePot;
         private List<Potrero> l_potreros;
+        private List<Hacienda> l_hacienda_aux;
 
 
         internal Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
        
 
-        public FormMenu(Hacienda selectHacienda)
+        public FormMenu(Hacienda selectHacienda, List<Hacienda> haciendas)
         {
             InitializeComponent();
-
+            l_hacienda_aux = new List<Hacienda>();
             SelectHacienda = selectHacienda;
             lbNombreHa.Text = selectHacienda.Nombre;
             //asignar las datos de la hacienda seleccionada
             l_potreros = selectHacienda.L_potreros;
 
+            l_hacienda_aux.AddRange(haciendas);
 
             cbPotreros.DataSource = l_potreros;
 
@@ -41,21 +43,21 @@ namespace I_Hacienda
 
         private void bConsultar_Ven_Click(object sender, EventArgs e)
         {
-            FormCon_Ven formCon_Ven = new FormCon_Ven(SelectHacienda);
+            FormCon_Ven formCon_Ven = new FormCon_Ven(SelectHacienda,l_hacienda_aux);
             formCon_Ven.Show();
             this.Hide();
         }
 
         private void bAgregar_pot_Click(object sender, EventArgs e)
         {
-            FormAgre_Pot formAgre_Pot = new FormAgre_Pot(SelectHacienda);
+            FormAgre_Pot formAgre_Pot = new FormAgre_Pot(SelectHacienda,l_hacienda_aux);
             formAgre_Pot.Show();
             this.Hide();
         }
 
         private void bAgregar_Res_Click(object sender, EventArgs e)
         {
-            FormAgre_Res formAgre_Res = new FormAgre_Res(SelectHacienda,indicePot);
+            FormAgre_Res formAgre_Res = new FormAgre_Res(SelectHacienda,indicePot,l_hacienda_aux);
             formAgre_Res.Show();
             this.Hide();
             
@@ -64,7 +66,7 @@ namespace I_Hacienda
 
         private void bVender_Res_Click(object sender, EventArgs e)
         {
-            FormVen_Res formVen_Res = new FormVen_Res(SelectHacienda);
+            FormVen_Res formVen_Res = new FormVen_Res(SelectHacienda,l_hacienda_aux);
             formVen_Res.Show();
             this.Hide();
 
@@ -134,23 +136,23 @@ namespace I_Hacienda
 
         private void bVacunar_Res_Click(object sender, EventArgs e)
         {
-            FormVac_Res formVac_Res = new FormVac_Res(SelectHacienda);
+            FormVac_Res formVac_Res = new FormVac_Res(SelectHacienda,l_hacienda_aux);
             formVac_Res.Show();
             this.Hide();
         }
 
         private void bConsultar_Vac_Click(object sender, EventArgs e)
         {
-            FormCon_Van formCon_Vans = new FormCon_Van(SelectHacienda);
+            FormCon_Van formCon_Vans = new FormCon_Van(SelectHacienda,l_hacienda_aux);
             formCon_Vans.Show();
             this.Hide();
         }
 
         private void bRegresarHacienda_Click(object sender, EventArgs e)
         {
-            FormBienvenido formBienvenido = new FormBienvenido();
-            formBienvenido.L_haciendas.Add(SelectHacienda);
-            formBienvenido.Show();
+            //el fomhaciendas me recibe una lista de haciendas, por ende una lista auxiliar con la hacienda actual añadida
+            FormHaciendas formHaciendas = new FormHaciendas(l_hacienda_aux);
+            formHaciendas.Show();
             this.Hide();
         }
     }
