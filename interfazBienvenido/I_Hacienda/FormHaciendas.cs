@@ -13,17 +13,11 @@ namespace I_Hacienda
 {
     public partial class FormHaciendas : Form
     {
-        internal List<Hacienda> l_haciendas;
+        private List<Hacienda> l_haciendas;
         private Hacienda selectHacienda;
 
         internal Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
 
-        /*
-internal List<Venta> l_ventas;
-internal List<Potrero> l_potreros;
-internal List<Res> l_reses;
-internal List<Vacuna> l_vacunas;
-*/
         public FormHaciendas(List<Hacienda> hacienda)
         {
             InitializeComponent();

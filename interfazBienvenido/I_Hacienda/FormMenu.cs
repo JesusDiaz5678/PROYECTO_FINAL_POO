@@ -13,13 +13,12 @@ namespace I_Hacienda
 {
     public partial class FormMenu : Form
     {
-        internal List<Hacienda> l_haciendas;
+
         private Hacienda selectHacienda;
-        internal Potrero selectPotrero;
-        internal int indicePot;
-        internal List<Venta> l_ventas;
-        internal List<Potrero> l_potreros;
-        internal List<Res> l_reses_ven;
+        private Potrero selectPotrero;
+        private int indicePot;
+        private List<Potrero> l_potreros;
+
 
         internal Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
        
@@ -31,9 +30,8 @@ namespace I_Hacienda
             SelectHacienda = selectHacienda;
             lbNombreHa.Text = selectHacienda.Nombre;
             //asignar las datos de la hacienda seleccionada
-            l_ventas = selectHacienda.L_ventas;
             l_potreros = selectHacienda.L_potreros;
-            l_reses_ven = selectHacienda.L_reces_vendidas;
+
 
             cbPotreros.DataSource = l_potreros;
 

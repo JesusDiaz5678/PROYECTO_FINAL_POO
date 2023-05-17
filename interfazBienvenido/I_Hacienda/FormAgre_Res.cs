@@ -17,7 +17,7 @@ namespace I_Hacienda
         private Hacienda selectHacienda;
         private List<String> reses;
         private FormMenu formMenu;
-        internal int indicePot;
+        private int indicePot;
 
         public Hacienda SelectHacienda { get => selectHacienda; set => selectHacienda = value; }
 

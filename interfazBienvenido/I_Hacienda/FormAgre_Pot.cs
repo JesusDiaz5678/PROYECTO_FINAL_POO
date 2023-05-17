@@ -14,7 +14,7 @@ namespace I_Hacienda
 {
     public partial class FormAgre_Pot : Form
     {
-        internal Potrero selectPotrero;
+        private Potrero selectPotrero;
         private Hacienda selectHacienda;
         private List<String> reses;
         private FormMenu formMenu;
