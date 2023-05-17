@@ -90,5 +90,20 @@ namespace I_Hacienda
                 MessageBox.Show("Hubo un error en FormVan_Res:\n" + error);
             }
         }
+
+        private void bBacteriana_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                FormVac_Bacteriana formVac_Bacteriana = new FormVac_Bacteriana(SelectHacienda, selectRes);
+                formVac_Bacteriana.Show();
+                this.Hide();
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show("Hubo un error en FormVan_Res:\n" + error);
+            }
+
+        }
     }
 }

@@ -119,6 +119,7 @@
             this.tbNombreV.Location = new System.Drawing.Point(62, 118);
             this.tbNombreV.Margin = new System.Windows.Forms.Padding(2);
             this.tbNombreV.Name = "tbNombreV";
+            this.tbNombreV.PlaceholderText = "Agregue la etiqueta \'viva\'";
             this.tbNombreV.Size = new System.Drawing.Size(446, 31);
             this.tbNombreV.TabIndex = 13;
             // 

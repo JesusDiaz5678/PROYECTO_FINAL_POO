@@ -91,6 +91,7 @@
             this.bBacteriana.TabIndex = 14;
             this.bBacteriana.Text = "BACTERIANA";
             this.bBacteriana.UseVisualStyleBackColor = true;
+            this.bBacteriana.Click += new System.EventHandler(this.bBacteriana_Click);
             // 
             // label4
             // 
