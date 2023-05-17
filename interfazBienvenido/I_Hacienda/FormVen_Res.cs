@@ -29,6 +29,8 @@ namespace I_Hacienda
 
             l_hacienda_aux.AddRange(haciendas);
             SelectHacienda = selectHacienda;
+            lNombreHa.Text = SelectHacienda.Nombre;
+            
             formMenu = new FormMenu(SelectHacienda, l_hacienda_aux);
 
             cbPotreros.DataSource = formMenu.SelectHacienda.L_potreros;
@@ -100,6 +102,11 @@ namespace I_Hacienda
                 throw new Exception("Hubo un error en FormVen_Res:\n", error);
             }
            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

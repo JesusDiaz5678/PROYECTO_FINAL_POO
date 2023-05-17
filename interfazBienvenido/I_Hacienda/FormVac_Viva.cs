@@ -249,5 +249,10 @@ namespace I_Hacienda
                 MessageBox.Show("Ocurrió un error al avanzar a la siguiente ventana:\n" + error);
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
