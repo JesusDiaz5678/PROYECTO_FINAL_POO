@@ -14,15 +14,14 @@ namespace I_Hacienda
 {
     public partial class FormBienvenido : Form
     {
-        internal List<Hacienda> l_haciendas;
-        
+        private List<Hacienda> l_haciendas;
 
-
+        public List<Hacienda> L_haciendas { get => l_haciendas; set => l_haciendas = value; }
 
         public FormBienvenido()
         {
             InitializeComponent();
-            l_haciendas = new List<Hacienda>();
+            L_haciendas = new List<Hacienda>();
             
 
         }
@@ -60,7 +59,7 @@ namespace I_Hacienda
                     {
                         if(Regex.IsMatch(tbEdadmin.Text, @"^\d+$") && tbEdadmin.Text.Length > 0)
                         {
-                            l_haciendas.Add(new Hacienda(tbNombre.Text, new Potrero(ushort.Parse(tbID.Text), byte.Parse(tbEdadmin.Text))));
+                            L_haciendas.Add(new Hacienda(tbNombre.Text, new Potrero(ushort.Parse(tbID.Text), byte.Parse(tbEdadmin.Text))));
                         }
                         else throw new Exception("Edad mínima inválida {solo números}.");
                     }
@@ -84,13 +83,13 @@ namespace I_Hacienda
         {
             try
             {
-                if (l_haciendas.Count == 0)
+                if (L_haciendas.Count == 0)
                 {
                     throw new Exception("Cree al menos una hacienda");
                 }
                 else
                 {
-                    FormHaciendas formHaciendas = new FormHaciendas(l_haciendas);
+                    FormHaciendas formHaciendas = new FormHaciendas(L_haciendas);
                     formHaciendas.Show();
 
                     this.Hide();

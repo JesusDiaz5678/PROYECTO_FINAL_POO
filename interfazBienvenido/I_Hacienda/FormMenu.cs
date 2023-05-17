@@ -147,5 +147,13 @@ namespace I_Hacienda
             formCon_Vans.Show();
             this.Hide();
         }
+
+        private void bRegresarHacienda_Click(object sender, EventArgs e)
+        {
+            FormBienvenido formBienvenido = new FormBienvenido();
+            formBienvenido.L_haciendas.Add(SelectHacienda);
+            formBienvenido.Show();
+            this.Hide();
+        }
     }
 }
