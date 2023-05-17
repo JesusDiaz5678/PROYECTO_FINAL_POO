@@ -104,7 +104,7 @@
             this.groupBox2.Controls.Add(this.cbPotreros);
             this.groupBox2.Location = new System.Drawing.Point(-3, 195);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(895, 654);
+            this.groupBox2.Size = new System.Drawing.Size(895, 657);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);

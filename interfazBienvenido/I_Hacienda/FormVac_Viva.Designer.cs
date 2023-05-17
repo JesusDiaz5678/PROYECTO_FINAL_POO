@@ -51,9 +51,9 @@
             this.groupBox1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.groupBox1.Controls.Add(this.lbNombreHa);
             this.groupBox1.Location = new System.Drawing.Point(-3, -20);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1535, 218);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
@@ -81,9 +81,9 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(396, 218);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(738, 609);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
@@ -93,7 +93,7 @@
             this.bVacunar.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bVacunar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.bVacunar.Location = new System.Drawing.Point(289, 527);
-            this.bVacunar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bVacunar.Margin = new System.Windows.Forms.Padding(4);
             this.bVacunar.Name = "bVacunar";
             this.bVacunar.Size = new System.Drawing.Size(162, 44);
             this.bVacunar.TabIndex = 16;
@@ -175,7 +175,7 @@
             this.bVolver.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bVolver.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.bVolver.Location = new System.Drawing.Point(1356, 794);
-            this.bVolver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bVolver.Margin = new System.Windows.Forms.Padding(4);
             this.bVolver.Name = "bVolver";
             this.bVolver.Size = new System.Drawing.Size(162, 44);
             this.bVolver.TabIndex = 11;
@@ -203,6 +203,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormVac_Viva";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormVac_Viva";
             this.Load += new System.EventHandler(this.FormVac_Viva_Load);
             this.groupBox1.ResumeLayout(false);
