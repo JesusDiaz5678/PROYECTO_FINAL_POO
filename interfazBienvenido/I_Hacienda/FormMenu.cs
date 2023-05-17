@@ -136,7 +136,9 @@ namespace I_Hacienda
 
         private void bVacunar_Res_Click(object sender, EventArgs e)
         {
-
+            FormVac_Res formVac_Res = new FormVac_Res(SelectHacienda);
+            formVac_Res.Show();
+            this.Hide();
         }
 
         private void bConsultar_Vac_Click(object sender, EventArgs e)

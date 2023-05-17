@@ -40,7 +40,6 @@ namespace I_Hacienda
             try
             {
                 selectPotrero = (Potrero)cbPotreros.SelectedItem;
-                cbReses.DataSource = null;
                 cbReses.DataSource = selectPotrero.L_reses;
             }
             catch(Exception error)
@@ -54,8 +53,12 @@ namespace I_Hacienda
             try
             {
                 selectRes = (Res)cbReses.SelectedItem;
-                lVacunas.DataSource = null;
-                lVacunas.DataSource = selectRes.L_vacunas;
+                if (selectRes != null)
+                {
+                    lVacunas.DataSource = selectRes.L_vacunas;
+                }
+                else throw new Exception("No hay reses en el potrero");
+
             }
             catch (Exception error)
             {

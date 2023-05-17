@@ -73,3 +73,7 @@ C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROY
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormCon_Van.resources
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVac_Res.resources
 C:\Users\JESUS ALBERTO\Desktop\UNIVERSIDAD\PROGRAMACION Y DISEÑO ORIENTADO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVac_Viva.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormCon_Van.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVac_Bacteriana.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVac_Res.resources
+C:\Users\Johan Choles\Desktop\ProyectoPOO\PROYECTO_FINAL_POO\interfazBienvenido\I_Hacienda\obj\Debug\net5.0-windows\I_Hacienda.FormVac_Viva.resources
