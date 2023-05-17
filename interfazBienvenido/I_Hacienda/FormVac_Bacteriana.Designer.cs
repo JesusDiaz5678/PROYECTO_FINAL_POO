@@ -84,7 +84,7 @@
             // tbPeriodo
             // 
             this.tbPeriodo.Location = new System.Drawing.Point(62, 323);
-            this.tbPeriodo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbPeriodo.Margin = new System.Windows.Forms.Padding(2);
             this.tbPeriodo.Name = "tbPeriodo";
             this.tbPeriodo.PlaceholderText = "Periodo de aplicacion en dias";
             this.tbPeriodo.Size = new System.Drawing.Size(446, 31);
@@ -116,7 +116,7 @@
             // tbNombreV
             // 
             this.tbNombreV.Location = new System.Drawing.Point(62, 118);
-            this.tbNombreV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNombreV.Margin = new System.Windows.Forms.Padding(2);
             this.tbNombreV.Name = "tbNombreV";
             this.tbNombreV.PlaceholderText = "Agregue la etiqueta \'bacteriana\'";
             this.tbNombreV.Size = new System.Drawing.Size(446, 31);
@@ -126,10 +126,11 @@
             // 
             this.cbLotes.FormattingEnabled = true;
             this.cbLotes.Location = new System.Drawing.Point(62, 215);
-            this.cbLotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbLotes.Margin = new System.Windows.Forms.Padding(2);
             this.cbLotes.Name = "cbLotes";
             this.cbLotes.Size = new System.Drawing.Size(446, 33);
             this.cbLotes.TabIndex = 12;
+            this.cbLotes.SelectedIndexChanged += new System.EventHandler(this.cbLotes_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -184,7 +185,7 @@
             this.Controls.Add(this.bVolver);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormVac_Bacteriana";
             this.Text = "FormVac_Bacteriana";
             this.Load += new System.EventHandler(this.FormVac_Bacteriana_Load_1);

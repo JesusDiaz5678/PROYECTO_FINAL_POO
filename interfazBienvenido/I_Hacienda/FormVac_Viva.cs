@@ -28,7 +28,7 @@ namespace I_Hacienda
         {
             InitializeComponent();
             SelectHacienda = selectHacienda;
-            this.selectRes = resVacuna;
+            selectRes = resVacuna;
             lbNombreHa.Text = SelectHacienda.Nombre;
             formMenu = new FormMenu(SelectHacienda);
 
@@ -66,7 +66,7 @@ namespace I_Hacienda
             }
             catch(Exception error)
             {
-                MessageBox.Show("Ocurrió un error en FormVac_Viava:\n"+error);
+                MessageBox.Show("Ocurrió un error en FormVac_Viva:\n"+error);
             }
         }
 

@@ -28,7 +28,7 @@ namespace I_Hacienda
         {
             InitializeComponent();
             SelectHacienda = selectHacienda;
-            this.selectRes = resVacuna;
+            selectRes = resVacuna;
             lbNombreHa.Text = SelectHacienda.Nombre;
             formMenu = new FormMenu(SelectHacienda);
 
@@ -115,6 +115,19 @@ namespace I_Hacienda
                 }
                 else throw new Exception("Escriba un nombre válido para la vacuna BACTERIANA ");
 
+
+            }
+            catch (Exception error)
+            {
+                MessageBox.Show("Ocurrió un error en FormVac_Bacteriana:\n" + error);
+            }
+        }
+
+        private void cbLotes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                selectLote = (string)cbLotes.SelectedItem;
 
             }
             catch (Exception error)
