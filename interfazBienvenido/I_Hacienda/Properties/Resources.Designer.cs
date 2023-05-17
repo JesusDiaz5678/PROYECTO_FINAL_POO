@@ -83,6 +83,16 @@ namespace I_Hacienda.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _6062625947_a5e7e55be3_o {
+            get {
+                object obj = ResourceManager.GetObject("6062625947_a5e7e55be3_o", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _86710 {
             get {
                 object obj = ResourceManager.GetObject("86710", resourceCulture);
@@ -123,6 +133,16 @@ namespace I_Hacienda.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iStock_923731954_1 {
+            get {
+                object obj = ResourceManager.GetObject("iStock-923731954-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap maleza_ganaderia_corteva_1068x534 {
             get {
                 object obj = ResourceManager.GetObject("maleza-ganaderia-corteva-1068x534", resourceCulture);
@@ -136,6 +156,16 @@ namespace I_Hacienda.Properties {
         internal static System.Drawing.Bitmap vaca_ganado_vaca_lechera {
             get {
                 object obj = ResourceManager.GetObject("vaca-ganado-vaca-lechera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Vacas_en_Lusera_1_1 {
+            get {
+                object obj = ResourceManager.GetObject("Vacas_en_Lusera_1_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

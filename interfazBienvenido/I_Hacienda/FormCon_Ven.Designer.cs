@@ -76,11 +76,11 @@
             this.groupBox2.Controls.Add(this.lreses_ven);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.bContinuar);
-            this.groupBox2.Location = new System.Drawing.Point(-3, 205);
+            this.groupBox2.Location = new System.Drawing.Point(-3, 198);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(1535, 634);
+            this.groupBox2.Size = new System.Drawing.Size(1535, 654);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);

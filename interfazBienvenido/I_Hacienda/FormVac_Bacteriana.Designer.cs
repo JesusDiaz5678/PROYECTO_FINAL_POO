@@ -40,17 +40,21 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.bVolver = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.groupBox1.Controls.Add(this.lbNombreHa);
-            this.groupBox1.Location = new System.Drawing.Point(-2, -16);
+            this.groupBox1.Location = new System.Drawing.Point(-3, -20);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1181, 170);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1535, 218);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
@@ -59,9 +63,10 @@
             this.lbNombreHa.AutoSize = true;
             this.lbNombreHa.Font = new System.Drawing.Font("Showcard Gothic", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbNombreHa.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lbNombreHa.Location = new System.Drawing.Point(311, 56);
+            this.lbNombreHa.Location = new System.Drawing.Point(404, 72);
+            this.lbNombreHa.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNombreHa.Name = "lbNombreHa";
-            this.lbNombreHa.Size = new System.Drawing.Size(548, 68);
+            this.lbNombreHa.Size = new System.Drawing.Size(737, 93);
             this.lbNombreHa.TabIndex = 2;
             this.lbNombreHa.Text = "NOMBRE HACIENDA";
             // 
@@ -75,28 +80,31 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(305, 170);
+            this.groupBox2.Location = new System.Drawing.Point(396, 218);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(568, 476);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(738, 609);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             // 
             // tbPeriodo
             // 
-            this.tbPeriodo.Location = new System.Drawing.Point(62, 323);
-            this.tbPeriodo.Margin = new System.Windows.Forms.Padding(2);
+            this.tbPeriodo.BackColor = System.Drawing.SystemColors.Info;
+            this.tbPeriodo.Location = new System.Drawing.Point(81, 413);
             this.tbPeriodo.Name = "tbPeriodo";
             this.tbPeriodo.PlaceholderText = "Periodo de aplicacion en dias";
-            this.tbPeriodo.Size = new System.Drawing.Size(446, 31);
+            this.tbPeriodo.Size = new System.Drawing.Size(579, 39);
             this.tbPeriodo.TabIndex = 17;
             // 
             // bVacunar
             // 
-            this.bVacunar.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bVacunar.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bVacunar.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bVacunar.Location = new System.Drawing.Point(222, 412);
+            this.bVacunar.Location = new System.Drawing.Point(289, 527);
+            this.bVacunar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bVacunar.Name = "bVacunar";
-            this.bVacunar.Size = new System.Drawing.Size(125, 34);
+            this.bVacunar.Size = new System.Drawing.Size(162, 44);
             this.bVacunar.TabIndex = 16;
             this.bVacunar.Text = "VACUNAR";
             this.bVacunar.UseVisualStyleBackColor = true;
@@ -105,63 +113,59 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(63, 276);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(81, 361);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(278, 23);
+            this.label4.Size = new System.Drawing.Size(393, 31);
             this.label4.TabIndex = 14;
             this.label4.Text = "Ingrese el periodo de aplicación:";
             // 
             // tbNombreV
             // 
-            this.tbNombreV.Location = new System.Drawing.Point(62, 118);
-            this.tbNombreV.Margin = new System.Windows.Forms.Padding(2);
+            this.tbNombreV.BackColor = System.Drawing.SystemColors.Info;
+            this.tbNombreV.Location = new System.Drawing.Point(81, 151);
             this.tbNombreV.Name = "tbNombreV";
             this.tbNombreV.PlaceholderText = "Agregue la etiqueta \'bacteriana\'";
-            this.tbNombreV.Size = new System.Drawing.Size(446, 31);
+            this.tbNombreV.Size = new System.Drawing.Size(579, 39);
             this.tbNombreV.TabIndex = 13;
             // 
             // cbLotes
             // 
+            this.cbLotes.BackColor = System.Drawing.SystemColors.Info;
             this.cbLotes.FormattingEnabled = true;
-            this.cbLotes.Location = new System.Drawing.Point(62, 215);
-            this.cbLotes.Margin = new System.Windows.Forms.Padding(2);
+            this.cbLotes.Location = new System.Drawing.Point(81, 275);
             this.cbLotes.Name = "cbLotes";
-            this.cbLotes.Size = new System.Drawing.Size(446, 33);
+            this.cbLotes.Size = new System.Drawing.Size(579, 40);
             this.cbLotes.TabIndex = 12;
             this.cbLotes.SelectedIndexChanged += new System.EventHandler(this.cbLotes_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(63, 178);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(82, 228);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(229, 23);
+            this.label3.Size = new System.Drawing.Size(318, 31);
             this.label3.TabIndex = 10;
             this.label3.Text = "Seleccione lote de vacuna:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(63, 80);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(82, 102);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(250, 23);
+            this.label2.Size = new System.Drawing.Size(357, 31);
             this.label2.TabIndex = 6;
             this.label2.Text = "Ingrese el nombre de vacuna:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(162, 28);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(211, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 24);
+            this.label1.Size = new System.Drawing.Size(393, 36);
             this.label1.TabIndex = 4;
             this.label1.Text = "VACUNAR BACTERIANA";
             // 
@@ -169,23 +173,34 @@
             // 
             this.bVolver.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.bVolver.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bVolver.Location = new System.Drawing.Point(1043, 620);
+            this.bVolver.Location = new System.Drawing.Point(1356, 794);
+            this.bVolver.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bVolver.Name = "bVolver";
-            this.bVolver.Size = new System.Drawing.Size(125, 34);
+            this.bVolver.Size = new System.Drawing.Size(162, 44);
             this.bVolver.TabIndex = 10;
             this.bVolver.Text = "VOLVER";
             this.bVolver.UseVisualStyleBackColor = true;
             this.bVolver.Click += new System.EventHandler(this.bVolver_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::I_Hacienda.Properties.Resources.iStock_923731954_1;
+            this.pictureBox1.Location = new System.Drawing.Point(-3, 196);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1535, 655);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormVac_Bacteriana
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1178, 664);
+            this.ClientSize = new System.Drawing.Size(1531, 850);
             this.Controls.Add(this.bVolver);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "FormVac_Bacteriana";
             this.Text = "FormVac_Bacteriana";
             this.Load += new System.EventHandler(this.FormVac_Bacteriana_Load_1);
@@ -193,6 +208,7 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -211,5 +227,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbPeriodo;
         private System.Windows.Forms.Button bVolver;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
