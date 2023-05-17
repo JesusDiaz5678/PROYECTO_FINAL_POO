@@ -138,5 +138,12 @@ namespace I_Hacienda
         {
 
         }
+
+        private void bConsultar_Vac_Click(object sender, EventArgs e)
+        {
+            FormCon_Van formCon_Vans = new FormCon_Van(SelectHacienda);
+            formCon_Vans.Show();
+            this.Hide();
+        }
     }
 }
