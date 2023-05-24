@@ -52,6 +52,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1181, 170);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lNombreHa
             // 
@@ -154,7 +155,7 @@
             this.pictureBox1.Image = global::I_Hacienda.Properties.Resources.Cows_grazing_autumn_morning_Somerset_levels_2930581997;
             this.pictureBox1.InitialImage = global::I_Hacienda.Properties.Resources.Cows_grazing_autumn_morning_Somerset_levels_2930581997;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1178, 664);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -170,7 +171,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormAgre_Pot";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormAgre_Pot";

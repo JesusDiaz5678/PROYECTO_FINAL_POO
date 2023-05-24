@@ -53,6 +53,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1181, 170);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lNombreHa
             // 
@@ -85,7 +86,7 @@
             this.cbReses.BackColor = System.Drawing.SystemColors.Info;
             this.cbReses.FormattingEnabled = true;
             this.cbReses.Location = new System.Drawing.Point(42, 252);
-            this.cbReses.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbReses.Margin = new System.Windows.Forms.Padding(2);
             this.cbReses.Name = "cbReses";
             this.cbReses.Size = new System.Drawing.Size(422, 33);
             this.cbReses.TabIndex = 11;
@@ -108,7 +109,7 @@
             this.cbPotreros.BackColor = System.Drawing.SystemColors.Info;
             this.cbPotreros.FormattingEnabled = true;
             this.cbPotreros.Location = new System.Drawing.Point(40, 122);
-            this.cbPotreros.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbPotreros.Margin = new System.Windows.Forms.Padding(2);
             this.cbPotreros.Name = "cbPotreros";
             this.cbPotreros.Size = new System.Drawing.Size(422, 33);
             this.cbPotreros.TabIndex = 9;
@@ -167,7 +168,7 @@
             this.pictureBox1.Image = global::I_Hacienda.Properties.Resources._6062625947_a5e7e55be3_o;
             this.pictureBox1.InitialImage = global::I_Hacienda.Properties.Resources._6062625947_a5e7e55be3_o;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 152);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1181, 512);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -184,7 +185,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormVen_Res";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormVen_Res";

@@ -66,6 +66,7 @@ namespace I_Hacienda
                 }
                 else throw new Exception("Agregue una edad válida");
                 tbEdad.Clear();
+                MessageBox.Show("Se ha creado la res correctamente");
 
             }
             catch(Exception error)
@@ -93,8 +94,23 @@ namespace I_Hacienda
 
         private void bContinuar_Click_1(object sender, EventArgs e)
         {
-            formMenu.Show();
-            this.Hide();
+            try
+            {
+                formMenu.Show();
+                this.Hide();
+            }
+            catch(Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
+
+            
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

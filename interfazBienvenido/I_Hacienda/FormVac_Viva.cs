@@ -209,6 +209,7 @@ namespace I_Hacienda
                             break;
                     }
                     tbNombreV.Clear();
+                    MessageBox.Show("Se ha aplicado correctamente la vacuna tipo Viva");
                 }
                 else throw new Exception("Escriba un nombre válido para la vacuna VIVA");
 
@@ -251,6 +252,11 @@ namespace I_Hacienda
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }

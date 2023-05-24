@@ -40,13 +40,10 @@ namespace I_Hacienda
                 formMenu.Show();
                 this.Hide();
             }
-            catch (Exception error)
+            catch (Exception er)
             {
-                throw new Exception("Ocurrio un error en FormCon_Ven:\n", error);
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
             }
-
-            
-            
         }
 
         private void FormCon_Ven_Load(object sender, EventArgs e)

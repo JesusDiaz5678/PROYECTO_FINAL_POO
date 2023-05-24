@@ -53,6 +53,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1181, 170);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lNombreHa
             // 
@@ -98,7 +99,7 @@
             this.cbTipo_Res.BackColor = System.Drawing.SystemColors.Info;
             this.cbTipo_Res.FormattingEnabled = true;
             this.cbTipo_Res.Location = new System.Drawing.Point(40, 122);
-            this.cbTipo_Res.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbTipo_Res.Margin = new System.Windows.Forms.Padding(2);
             this.cbTipo_Res.Name = "cbTipo_Res";
             this.cbTipo_Res.Size = new System.Drawing.Size(422, 33);
             this.cbTipo_Res.TabIndex = 9;
@@ -167,7 +168,7 @@
             this.pictureBox1.Image = global::I_Hacienda.Properties.Resources.vaca_ganado_vaca_lechera;
             this.pictureBox1.InitialImage = global::I_Hacienda.Properties.Resources.AdobeStock_112363536_khj__1248x698_abc;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 151);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1186, 517);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -183,7 +184,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormAgre_Res";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormAgre_Res";

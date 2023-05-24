@@ -50,7 +50,7 @@ namespace I_Hacienda
             }
             catch (Exception error)
             {
-                MessageBox.Show("Hubo un error en FormVan_Res:\n" + error);
+                MessageBox.Show("Hubo un error en el cbPotreros:\n" + error);
             }
         }
 
@@ -64,7 +64,7 @@ namespace I_Hacienda
             }
             catch (Exception error)
             {
-                MessageBox.Show("Hubo un error en FormVan_Res:\n" + error);
+                MessageBox.Show("Hubo un error en el cbReses:\n" + error);
             }
         }
 
@@ -78,7 +78,7 @@ namespace I_Hacienda
             }
             catch (Exception error)
             {
-                MessageBox.Show("Hubo un error en FormVan_Res:\n" + error);
+                MessageBox.Show("Hubo un error en el botón:\n" + error);
             }
         }
 
@@ -91,7 +91,7 @@ namespace I_Hacienda
             }
             catch (Exception error)
             {
-                MessageBox.Show("Hubo un error en FormVan_Res:\n" + error);
+                MessageBox.Show("Ocurrió un error en el botón:\n" + error);
             }
         }
 
@@ -105,8 +105,13 @@ namespace I_Hacienda
             }
             catch (Exception error)
             {
-                MessageBox.Show("Hubo un error en FormVan_Res:\n" + error);
+                MessageBox.Show("Hubo un error en el botón:\n" + error);
             }
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
 
         }
     }

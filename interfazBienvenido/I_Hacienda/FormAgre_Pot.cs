@@ -40,13 +40,26 @@ namespace I_Hacienda
                 {
                     if (Regex.IsMatch(tbEdadmin.Text, @"^\d+$") && tbEdadmin.Text.Length > 0)
                     {
-                        SelectHacienda.Agregar_potrero(new Potrero(ushort.Parse(tbID.Text), byte.Parse(tbEdadmin.Text)));
+                        bool encontrado = false;
+                        foreach (Potrero item in SelectHacienda.L_potreros)
+                        {
+                            if (tbID.Text.Equals(item.Id.ToString()))
+                            {
+                                encontrado = true;
+                            }
+                        }
+                        if (encontrado)
+                        {
+                            throw new Exception("Este ID de potrero ya está en uso");
+                        }
+                        else SelectHacienda.Agregar_potrero(new Potrero(ushort.Parse(tbID.Text), byte.Parse(tbEdadmin.Text)));
                     }
                     else throw new Exception("Edad mínima del potrero inválida {solo números}.");
                 }
                 else throw new Exception("Agregue un ID válido");
                 tbID.Clear();
                 tbEdadmin.Clear();
+                MessageBox.Show("Se ha creado el potrero correctamente");
 
             }
             catch (Exception error)
@@ -68,9 +81,22 @@ namespace I_Hacienda
 
         private void bContinuar_Click_1(object sender, EventArgs e)
         {
-            formMenu = new FormMenu(SelectHacienda,l_hacienda_aux);
-            formMenu.Show();
-            this.Hide();
+            try
+            {
+                formMenu = new FormMenu(SelectHacienda, l_hacienda_aux);
+                formMenu.Show();
+                this.Hide();
+            }
+            catch(Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n"+ er);
+            }
+            
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

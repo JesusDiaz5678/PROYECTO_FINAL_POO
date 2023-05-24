@@ -43,33 +43,59 @@ namespace I_Hacienda
 
         private void bConsultar_Ven_Click(object sender, EventArgs e)
         {
-            FormCon_Ven formCon_Ven = new FormCon_Ven(SelectHacienda,l_hacienda_aux);
-            formCon_Ven.Show();
-            this.Hide();
+            try
+            {
+                FormCon_Ven formCon_Ven = new FormCon_Ven(SelectHacienda,l_hacienda_aux);
+                formCon_Ven.Show();
+                this.Hide();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
+            
         }
 
         private void bAgregar_pot_Click(object sender, EventArgs e)
         {
+            try
+            {
             FormAgre_Pot formAgre_Pot = new FormAgre_Pot(SelectHacienda,l_hacienda_aux);
             formAgre_Pot.Show();
             this.Hide();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
         }
 
         private void bAgregar_Res_Click(object sender, EventArgs e)
         {
+            try
+            {
             FormAgre_Res formAgre_Res = new FormAgre_Res(SelectHacienda,indicePot,l_hacienda_aux);
             formAgre_Res.Show();
             this.Hide();
-            
-            
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
         }
 
         private void bVender_Res_Click(object sender, EventArgs e)
         {
+            try
+            {
             FormVen_Res formVen_Res = new FormVen_Res(SelectHacienda,l_hacienda_aux);
             formVen_Res.Show();
             this.Hide();
-
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
         }
 
         private void lNombreHa_Click(object sender, EventArgs e)
@@ -94,7 +120,7 @@ namespace I_Hacienda
 
             }
             catch(Exception error){
-                throw new Exception("Ocurrió un error en el cbPotreros:\n",error);
+                MessageBox.Show("Ocurrió un error en el cbPotreros:\n" + error);
             }
         }
 
@@ -111,7 +137,7 @@ namespace I_Hacienda
             }
             catch(Exception error)
             {
-                throw new Exception("Ocurrió un error cargando el FormMenu:\n",error);
+                MessageBox.Show("Ocurrió un error en el botón:\n" + error);
             }
         }
 
@@ -136,24 +162,45 @@ namespace I_Hacienda
 
         private void bVacunar_Res_Click(object sender, EventArgs e)
         {
+            try
+            {
             FormVac_Res formVac_Res = new FormVac_Res(SelectHacienda,l_hacienda_aux);
             formVac_Res.Show();
             this.Hide();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
         }
 
         private void bConsultar_Vac_Click(object sender, EventArgs e)
         {
+            try
+            {
             FormCon_Van formCon_Vans = new FormCon_Van(SelectHacienda,l_hacienda_aux);
             formCon_Vans.Show();
             this.Hide();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
         }
 
         private void bRegresarHacienda_Click(object sender, EventArgs e)
         {
+            try
+            {
             //el fomhaciendas me recibe una lista de haciendas, por ende una lista auxiliar con la hacienda actual añadida
             FormHaciendas formHaciendas = new FormHaciendas(l_hacienda_aux);
             formHaciendas.Show();
             this.Hide();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
         }
     }
 }

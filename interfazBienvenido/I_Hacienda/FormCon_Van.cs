@@ -72,8 +72,27 @@ namespace I_Hacienda
 
         private void bRegresar_Click(object sender, EventArgs e)
         {
-            formMenu.Show();
-            this.Hide();
+            try
+            {
+                formMenu.Show();
+                this.Hide();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
+
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

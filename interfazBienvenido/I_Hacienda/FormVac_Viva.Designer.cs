@@ -55,6 +55,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1181, 170);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // lbNombreHa
             // 
@@ -100,7 +101,7 @@
             this.cgrado.BackColor = System.Drawing.SystemColors.Info;
             this.cgrado.FormattingEnabled = true;
             this.cgrado.Location = new System.Drawing.Point(62, 311);
-            this.cgrado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cgrado.Margin = new System.Windows.Forms.Padding(2);
             this.cgrado.Name = "cgrado";
             this.cgrado.Size = new System.Drawing.Size(446, 33);
             this.cgrado.TabIndex = 15;
@@ -121,7 +122,7 @@
             // 
             this.tbNombreV.BackColor = System.Drawing.SystemColors.Info;
             this.tbNombreV.Location = new System.Drawing.Point(62, 118);
-            this.tbNombreV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbNombreV.Margin = new System.Windows.Forms.Padding(2);
             this.tbNombreV.Name = "tbNombreV";
             this.tbNombreV.PlaceholderText = "Agregue la etiqueta \'viva\'";
             this.tbNombreV.Size = new System.Drawing.Size(446, 31);
@@ -132,7 +133,7 @@
             this.cbLotes.BackColor = System.Drawing.SystemColors.Info;
             this.cbLotes.FormattingEnabled = true;
             this.cbLotes.Location = new System.Drawing.Point(62, 215);
-            this.cbLotes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbLotes.Margin = new System.Windows.Forms.Padding(2);
             this.cbLotes.Name = "cbLotes";
             this.cbLotes.Size = new System.Drawing.Size(446, 33);
             this.cbLotes.TabIndex = 12;
@@ -187,7 +188,7 @@
             // 
             this.pictureBox1.Image = global::I_Hacienda.Properties.Resources.iStock_923731954_1;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 152);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1181, 517);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -204,7 +205,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FormVac_Viva";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormVac_Viva";

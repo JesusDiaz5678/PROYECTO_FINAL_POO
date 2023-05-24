@@ -110,12 +110,11 @@ namespace I_Hacienda
                         }
                         tbNombreV.Clear();
                         tbPeriodo.Clear();
+                        MessageBox.Show("Se ha aplicado correctamente la vacuna tipo Bacteriana");
                     }
                     else throw new Exception("Escriba un periodo de aplicación válido");
                 }
                 else throw new Exception("Escriba un nombre válido para la vacuna BACTERIANA ");
-
-
             }
             catch (Exception error)
             {
@@ -134,6 +133,11 @@ namespace I_Hacienda
             {
                 MessageBox.Show("Ocurrió un error en FormVac_Bacteriana:\n" + error);
             }
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

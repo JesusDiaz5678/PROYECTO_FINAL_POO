@@ -70,10 +70,24 @@ namespace I_Hacienda
 
         private void bRegresar_Click_1(object sender, EventArgs e)
         {
-            FormBienvenido formBienvenido = new FormBienvenido();
-            formBienvenido.L_haciendas.AddRange(L_haciendas);
-            formBienvenido.Show();
-            this.Hide();
+            try
+            {
+                FormBienvenido formBienvenido = new FormBienvenido();
+                formBienvenido.L_haciendas.AddRange(L_haciendas);
+                formBienvenido.Show();
+                this.Hide();
+            }
+            catch (Exception er)
+            {
+                MessageBox.Show("Ocurrió un error en el botón:\n" + er);
+            }
+
+            
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

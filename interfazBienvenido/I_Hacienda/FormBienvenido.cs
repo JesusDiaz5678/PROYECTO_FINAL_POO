@@ -59,7 +59,20 @@ namespace I_Hacienda
                     {
                         if(Regex.IsMatch(tbEdadmin.Text, @"^\d+$") && tbEdadmin.Text.Length > 0)
                         {
-                            L_haciendas.Add(new Hacienda(tbNombre.Text, new Potrero(ushort.Parse(tbID.Text), byte.Parse(tbEdadmin.Text))));
+                            bool encontrado = false;
+                            foreach (Hacienda item in L_haciendas)
+                            {
+                                if ((tbNombre.Text.ToUpper()).Equals(item.Nombre))
+                                {
+                                    encontrado = true;
+                                }
+                            }
+                            if (encontrado)
+                            {
+                                throw new Exception("Este nombre de hacienda ya está en uso, el nombre de la hacienda se visualiza en mayúsculas");
+                            }
+                            else L_haciendas.Add(new Hacienda(tbNombre.Text, new Potrero(ushort.Parse(tbID.Text), byte.Parse(tbEdadmin.Text))));
+
                         }
                         else throw new Exception("Edad mínima inválida {solo números}.");
                     }
@@ -69,6 +82,7 @@ namespace I_Hacienda
                 tbNombre.Clear();
                 tbID.Clear();
                 tbEdadmin.Clear();
+                MessageBox.Show("Se ha creado una hacienda correctamente");
             }
             catch(Exception error)
             {
@@ -100,6 +114,11 @@ namespace I_Hacienda
             {
                 MessageBox.Show("Ocurrió un error al avanzar a la siguiente ventana:\n"+error);
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
